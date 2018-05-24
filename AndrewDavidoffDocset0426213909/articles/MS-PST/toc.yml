@@ -1,0 +1,744 @@
+- name: "[MS-PST]: Outlook Personal Folders (.pst) File Format"
+  href: 141923d5-15ab-4ef1-a524-6dce75aae546.md
+  items:
+  - name: "1 Introduction"
+    href: ad1e6f1a-575d-47e7-be9c-9433247d496c.md
+    items:
+    - name: "1.1 Glossary"
+      href: 08220cc9-69b1-4072-a2e7-2a0ff201d505.md
+    - name: "1.2 References"
+      href: 67f3c7c7-1b20-4430-a652-81ca16519b94.md
+      items:
+      - name: "1.2.1 Normative References"
+        href: ebb4edde-b1ea-4a12-aefa-deea9865de8a.md
+      - name: "1.2.2 Informative References"
+        href: afd43dfb-d610-42c2-ba87-27368a764173.md
+    - name: "1.3 Structure Overview"
+      href: dc7f8261-3151-459c-99b3-49d611d508ee.md
+      items:
+      - name: "1.3.1 Logical Architecture of a PST File"
+        href: de4157d3-fc53-4aec-81be-d1659c8a2302.md
+        items:
+        - name: "1.3.1.1 Node Database (NDB) Layer"
+          href: e4efaad0-1876-446e-9d34-bb921588f924.md
+        - name: "1.3.1.2 Lists, Tables, and Properties (LTP) Layer"
+          href: 4c24c7d2-5c5a-4b99-88b2-f4b84cc293ae.md
+          items:
+          - name: "1.3.1.2.1 Heap-on-Node (HN)"
+            href: b4985c26-8c1c-4ad0-b2b8-b7896c52a75d.md
+          - name: "1.3.1.2.2 BTree-on-Heap (BTH)"
+            href: b1cb79f0-9b75-4ce9-abdd-b4d382cdb64c.md
+        - name: "1.3.1.3 Messaging Layer"
+          href: 3f1bc553-d15d-4dcf-9b80-fbf1dd6c7e79.md
+      - name: "1.3.2 Physical Organization of the PST File Format"
+        href: 6b57253b-0853-47bb-99bb-d4b8f78105f0.md
+        items:
+        - name: "1.3.2.1 Header"
+          href: fc4c74cb-ec8a-42ff-a2c5-2d6e3fa16394.md
+          items:
+          - name: "1.3.2.1.1 Metadata and State of the PST File"
+            href: 3448abe4-34ee-4230-a18f-c7ca6dee4347.md
+          - name: "1.3.2.1.2 Root Record"
+            href: dbcd7bba-d0f9-418a-b075-2eb21c2c2011.md
+          - name: "1.3.2.1.3 Initial Free Map (FMap) and Free Page Map (FPMap)"
+            href: ca65faa6-a850-46b8-b901-6fb1ee33a330.md
+        - name: "1.3.2.2 Reserved Data"
+          href: 962338e1-dd46-458c-8ea8-a705ebb0d70f.md
+        - name: "1.3.2.3 Density List (DList)"
+          href: dc716741-bee6-46ea-bbb3-773e6e828fda.md
+        - name: "1.3.2.4 Allocation Map (AMap)"
+          href: 2d29c497-b5d2-4fb1-b8cf-c888104362a4.md
+        - name: "1.3.2.5 Page Map (PMap)"
+          href: 6f1f7f0d-6ea1-4037-be86-73d9475caa21.md
+        - name: "1.3.2.6 Data Section"
+          href: f8fb872d-70b2-48f7-8bec-880c02ea9f6e.md
+        - name: "1.3.2.7 Free Map (FMap)"
+          href: 289b28b0-1e9a-4fa5-a4d1-cd214c275a16.md
+        - name: "1.3.2.8 Free Page Maps (FPMap)"
+          href: e3948d31-8c7a-41a6-b08c-5edf1f7274a4.md
+    - name: "1.4 Relationship to Protocols and Other Structures"
+      href: d852176e-c5b1-44a4-bda7-4d1ae62a26f6.md
+    - name: "1.5 Applicability Statement"
+      href: c944f0de-5d85-4ef4-9939-04a9afa4ae24.md
+    - name: "1.6 Versioning and Localization"
+      href: 10e825c1-787e-4e40-9bd2-a8598ed3c75c.md
+    - name: "1.7 Vendor-Extensible Fields"
+      href: 4ff658a6-e45c-4221-9c50-960108ceccc0.md
+  - name: "2 Structures"
+    href: 330bef4a-ba94-4f1c-b7fe-e00c05adbd0e.md
+    items:
+    - name: "2.1 Property and Data Type Definitions"
+      href: d3e8c5ce-1109-49ff-b8ce-98a0a85cbf12.md
+      items:
+      - name: "2.1.1 Data Types"
+        href: 1d61ee78-4466-4141-8276-f45153484619.md
+      - name: "2.1.2 Properties"
+        href: 1b8e3307-c8ea-4885-8fc8-9db4c34f8048.md
+    - name: "2.2 NDB Layer"
+      href: cf7df7ba-f925-459f-b643-6431ec953124.md
+      items:
+      - name: "2.2.1 Fundamental Concepts"
+        href: 3ba34bdb-611e-40ed-a725-fcb64f1fa7af.md
+        items:
+        - name: "2.2.1.1 Nodes"
+          href: a595a372-090c-42e1-913c-fad7873b202c.md
+        - name: "2.2.1.2 ANSI Versus Unicode"
+          href: cdad232f-e7d9-41c1-9773-c7561b9cba04.md
+      - name: "2.2.2 Data Structures"
+        href: 0383bcce-4c0a-4304-afc9-d51a3c73874a.md
+        items:
+        - name: "2.2.2.1 NID (Node ID)"
+          href: 18d7644e-cb33-4e11-95c0-34d8a84fbff6.md
+        - name: "2.2.2.2 BID (Block ID)"
+          href: d3155aa1-ccdd-4dee-a0a9-5363ccca5352.md
+        - name: "2.2.2.3 IB (Byte Index)"
+          href: 7d53d413-b492-4483-b624-4e2fa2a08cf3.md
+        - name: "2.2.2.4 BREF"
+          href: 844a5ebf-488a-45fd-8fce-92a84d8e24a3.md
+        - name: "2.2.2.5 ROOT"
+          href: 32ce8c94-4757-46c8-a169-3fd21abee584.md
+        - name: "2.2.2.6 HEADER"
+          href: c9876f5a-664b-46a3-9887-ba63f113abf5.md
+        - name: "2.2.2.7 Pages"
+          href: 5774b4f2-cdc4-453e-996a-8c8230116930.md
+          items:
+          - name: "2.2.2.7.1 PAGETRAILER"
+            href: f4ccb38a-930a-4db4-98df-a69c195926ba.md
+          - name: "2.2.2.7.2 AMap (Allocation Map) Page"
+            href: 60466ef4-af15-49b6-8413-b3a72f0e9bdb.md
+            items:
+            - name: "2.2.2.7.2.1 AMAPPAGE"
+              href: 43d8f556-2c0e-4976-8ec7-84e57f8b1234.md
+          - name: "2.2.2.7.3 PMap (Page Map) Page"
+            href: e0c59db8-970a-40df-9547-c136e8858291.md
+            items:
+            - name: "2.2.2.7.3.1 PMAPPAGE"
+              href: 7e64a91f-cbd1-4a11-90c9-df5789e7d9a1.md
+          - name: "2.2.2.7.4 Density List (DList)"
+            href: 41210435-5580-417f-bfa3-dbba7083b82e.md
+            items:
+            - name: "2.2.2.7.4.1 DLISTPAGEENT"
+              href: 9d3c45b9-a415-446c-954f-b1b473dbb415.md
+            - name: "2.2.2.7.4.2 DLISTPAGE"
+              href: 5d426b2d-ec10-4614-b768-46813652d5e3.md
+          - name: "2.2.2.7.5 FMap (Free Map) Page"
+            href: 9054ab04-2bc4-4e3d-a1af-f72cd46394a1.md
+            items:
+            - name: "2.2.2.7.5.1 FMAPPAGE"
+              href: 26273ead-797e-4ea6-9b3c-9b9a5c581115.md
+          - name: "2.2.2.7.6 FPMap (Free Page Map) Page"
+            href: dd913b8e-5113-4b83-a5ea-351a08b4237b.md
+            items:
+            - name: "2.2.2.7.6.1 FPMAPPAGE"
+              href: 913a72b0-83f6-4c29-8b0b-40967579a534.md
+          - name: "2.2.2.7.7 BTrees"
+            href: 7d759bcb-7864-480c-8746-f6af913ab085.md
+            items:
+            - name: "2.2.2.7.7.1 BTPAGE"
+              href: 4f0cd8e7-c2d0-4975-90a4-d417cfca77f8.md
+            - name: "2.2.2.7.7.2 BTENTRY (Intermediate Entries)"
+              href: bc8052a3-f300-4022-be31-f0f408fffca0.md
+            - name: "2.2.2.7.7.3 BBTENTRY (Leaf BBT Entry)"
+              href: 53a4b926-8ac4-45c9-9c6d-8358d951dbcd.md
+              items:
+              - name: "2.2.2.7.7.3.1 Reference Counts"
+                href: 3301874b-7150-4968-9a2d-1425ca494c21.md
+            - name: "2.2.2.7.7.4 NBTENTRY (Leaf NBT Entry)"
+              href: 28fb2116-0998-4485-9844-9711b95603ba.md
+              items:
+              - name: "2.2.2.7.7.4.1 Parent NID"
+                href: 65b9823b-530e-430a-aa4c-d4bad9ece9d3.md
+        - name: "2.2.2.8 Blocks"
+          href: a9c1981d-d1ea-457c-b39e-dc7fb0eb95d4.md
+          items:
+          - name: "2.2.2.8.1 BLOCKTRAILER"
+            href: a14943ef-70c2-403f-898c-5bc3747117e1.md
+          - name: "2.2.2.8.2 Anatomy of a Block"
+            href: ddeb714d-8fd5-4a48-8019-8338cb511c80.md
+          - name: "2.2.2.8.3 Block Types"
+            href: 8f34ce81-7a04-4a31-ba48-e05543daa77f.md
+            items:
+            - name: "2.2.2.8.3.1 Data Blocks"
+              href: d0e6fbaf-00e3-4d4d-bea8-8ab3cdb4fde6.md
+              items:
+              - name: "2.2.2.8.3.1.1 Data Block Encoding/Obfuscation"
+                href: 27ffd5b2-bfac-466b-bc3f-96534c895758.md
+            - name: "2.2.2.8.3.2 Data Tree"
+              href: 45688317-46fb-4038-9ed3-b845d80bdabb.md
+              items:
+              - name: "2.2.2.8.3.2.1 XBLOCK"
+                href: 5b7a6935-e83d-4917-9f62-6ce3707f09e0.md
+              - name: "2.2.2.8.3.2.2 XXBLOCK"
+                href: 061b6ac4-d1da-468c-b75d-0303a0a8f468.md
+            - name: "2.2.2.8.3.3 Subnode BTree"
+              href: 0c7d9bd5-e3cf-43cc-9292-a32c7b2666da.md
+              items:
+              - name: "2.2.2.8.3.3.1 SLBLOCKs"
+                href: 03fddfe6-1286-4588-ac01-e12a5fd8dec9.md
+                items:
+                - name: "2.2.2.8.3.3.1.1 SLENTRY (Leaf Block Entry)"
+                  href: 85c4d943-0779-43c5-bd98-61dc9bb5dfd6.md
+                - name: "2.2.2.8.3.3.1.2 SLBLOCK"
+                  href: 5182eb24-4b0b-4816-aa3f-719cc6e6b018.md
+              - name: "2.2.2.8.3.3.2 SIBLOCKs"
+                href: 1e606d2f-e043-4373-a32d-f5d1557612c9.md
+                items:
+                - name: "2.2.2.8.3.3.2.1 SIENTRY (Intermediate Block Entry)"
+                  href: 9e79c673-d2f4-49fb-a00b-51b08fd2d1e4.md
+                - name: "2.2.2.8.3.3.2.2 SIBLOCK"
+                  href: 729fb9bd-060a-4bbc-9b3b-8f014b487dad.md
+    - name: "2.3 LTP Layer"
+      href: 77007716-7993-44fe-9b40-9526157cfc6d.md
+      items:
+      - name: "2.3.1 HN (Heap-on-Node)"
+        href: 77ce49a3-3772-4d8d-bb2c-2f7520a238a6.md
+        items:
+        - name: "2.3.1.1 HID"
+          href: 85b9e985-ea53-447f-b70c-eb82bfbdcbc9.md
+        - name: "2.3.1.2 HNHDR"
+          href: 8e4ae05c-3c24-4103-b7e5-ffef6f244834.md
+        - name: "2.3.1.3 HNPAGEHDR"
+          href: 9c34ecf8-36bc-45a1-a2df-ee35c6dc840a.md
+        - name: "2.3.1.4 HNBITMAPHDR"
+          href: 822e2327-b29d-4ec4-91be-45637a438d40.md
+        - name: "2.3.1.5 HNPAGEMAP"
+          href: 291653c0-b347-4c5b-ba41-85ad780b4ba4.md
+        - name: "2.3.1.6 Anatomy of HN Data Blocks"
+          href: a3fa280c-eba3-434f-86e4-b95141b3c7b1.md
+          items:
+          - name: "2.3.1.6.1 Single-Block Configuration"
+            href: 5025dd4e-cca8-4d12-ad51-f40e992c9506.md
+          - name: "2.3.1.6.2 Data Tree Configuration"
+            href: 1bf67b8a-cbe8-4b58-9ddc-89997126da17.md
+      - name: "2.3.2 BTree-on-Heap (BTH)"
+        href: 2dd1a95a-c8b1-4ac5-87d1-10cb8de64053.md
+        items:
+        - name: "2.3.2.1 BTHHEADER"
+          href: 5a6ab19e-1f44-4def-ad64-7bd82d94bd78.md
+        - name: "2.3.2.2 Intermediate BTH (Index) Records"
+          href: 2c992ac1-1b21-4167-b111-f76cf609005f.md
+        - name: "2.3.2.3 Leaf BTH (Data) Records"
+          href: 660db569-c8f7-4516-82ad-44709b1c667f.md
+      - name: "2.3.3 Property Context (PC)"
+        href: 294c83c6-ff92-42f5-b6b6-876c29fa9737.md
+        items:
+        - name: "2.3.3.1 Accessing the PC BTHHEADER"
+          href: dbd9b0b5-84fa-435a-ba1d-67790d358c41.md
+        - name: "2.3.3.2 HNID"
+          href: 7ac490ce-31af-4a75-97df-eb9d07a003fd.md
+        - name: "2.3.3.3 PC BTH Record"
+          href: 7daab6f5-ce65-437e-80d5-1b1be4088bd3.md
+        - name: "2.3.3.4 Multi-Valued Properties"
+          href: 8867b1c4-d15c-49ae-bb78-5e35615c4cfd.md
+          items:
+          - name: "2.3.3.4.1 MV Properties with Fixed-size Base Type"
+            href: 73b910ea-09c0-4512-8cd2-e98d06497d51.md
+          - name: "2.3.3.4.2 MV Properties with Variable-size Base Type"
+            href: 45063075-c65d-48cd-a441-f86809bcc6eb.md
+        - name: "2.3.3.5 PtypObject Properties"
+          href: 49457d57-820e-453d-bbc0-1d192a999814.md
+        - name: "2.3.3.6 Anatomy of a PC"
+          href: 235cb001-ebd6-4124-872a-73b7d2485b8f.md
+      - name: "2.3.4 Table Context (TC)"
+        href: 5e48be0d-a75a-4918-a277-50408ff96740.md
+        items:
+        - name: "2.3.4.1 TCINFO"
+          href: 45b3a0c5-d6d6-4e02-aebf-13766ff693f0.md
+        - name: "2.3.4.2 TCOLDESC"
+          href: 3a2f63cf-bb40-4559-910c-e55ec43d9cbb.md
+        - name: "2.3.4.3 The RowIndex"
+          href: bba20ff2-75fd-474a-b3e7-a46f0d9116db.md
+          items:
+          - name: "2.3.4.3.1 TCROWID"
+            href: e20b5cf4-ea56-48b8-a8fa-e086c9b862ca.md
+        - name: "2.3.4.4 Row Matrix"
+          href: 7f5ec68f-d4fd-404f-95c3-fe3495a034ec.md
+          items:
+          - name: "2.3.4.4.1 Row Data Format"
+            href: c48fa6b4-bfd4-49d7-80f8-8718bc4bcddc.md
+          - name: "2.3.4.4.2 Variable-sized Data"
+            href: a8da3d66-6051-4e30-8b8c-2b7d3c373834.md
+          - name: "2.3.4.4.3 Cell Existence Test"
+            href: dc3b980b-9d16-4451-ad1c-7384540f11ec.md
+    - name: "2.4 Messaging Layer"
+      href: e2e7a5aa-c89f-4fb8-b044-15ac76e5207e.md
+      items:
+      - name: "2.4.1 Special Internal NIDs"
+        href: 0510ece4-6853-4bef-8cc8-8df3468e3ff1.md
+      - name: "2.4.2 Properties"
+        href: 36c1290e-8b1b-4d8c-91e1-d9fb3147c11c.md
+        items:
+        - name: "2.4.2.1 Standard Properties"
+          href: 8aa62bdf-96d4-46d0-9e94-1f0808bbaabe.md
+        - name: "2.4.2.2 Named Properties"
+          href: 60003704-dfa6-476f-b782-ce8bb52a2df3.md
+        - name: "2.4.2.3 Calculated Properties"
+          href: db5192a9-5307-4c2d-8278-ae1c36be852d.md
+      - name: "2.4.3 Message Store"
+        href: aa0539bd-e7bf-4cec-8bde-0b87c2a86baf.md
+        items:
+        - name: "2.4.3.1 Minimum Set of Required Properties"
+          href: 5493a0eb-0356-4e88-b4f5-0433ce0a93fa.md
+        - name: "2.4.3.2 Mapping between EntryID and NID"
+          href: 9378e8b9-7b6a-45bf-a51a-f21daf24d9ce.md
+        - name: "2.4.3.3 PST Password Security"
+          href: 48468b1e-cc81-4e2b-82a7-9bf61adc948e.md
+      - name: "2.4.4 Folders"
+        href: dee5b9d0-5513-4c5e-94aa-8bd28a9350b2.md
+        items:
+        - name: "2.4.4.1 Folder object PC"
+          href: 2cdb6e46-61b9-4426-af1e-e0c7bd889293.md
+          items:
+          - name: "2.4.4.1.1 Property Schema of a Folder object PC"
+            href: ec5b8b40-8b31-4612-88c8-510745f7ae80.md
+          - name: "2.4.4.1.2 Locating the Parent Folder object"
+            href: 5c9168e6-c2c4-496d-b850-1dec10d9aef1.md
+        - name: "2.4.4.2 Folder Template Tables"
+          href: fc498696-c799-4662-b6e3-4b2854b9d6c0.md
+        - name: "2.4.4.3 Data Duplication and Coherency Maintenance"
+          href: 0ca6bb65-92c3-4c94-9276-a7d5f8b15abe.md
+        - name: "2.4.4.4 Hierarchy Table"
+          href: 63a983fc-6d5b-4573-aa4c-2858116c0f73.md
+          items:
+          - name: "2.4.4.4.1 Hierarchy Table Template"
+            href: c08fb6cb-2d91-42e5-b70d-f3e4f9781a2a.md
+          - name: "2.4.4.4.2 Locating Sub-Folder Object Nodes"
+            href: 7ed1b488-f119-4d0c-be70-015dd360fc6d.md
+        - name: "2.4.4.5 Contents Table"
+          href: 53148bd2-69f3-442a-947c-1d8b88f4abf9.md
+          items:
+          - name: "2.4.4.5.1 Contents Table Template"
+            href: f58e1ea9-b592-408d-b89e-53fd4cd6024b.md
+          - name: "2.4.4.5.2 Locating Message Object Nodes"
+            href: 5a8713b7-efa5-4f6c-aba7-5de42731e00f.md
+        - name: "2.4.4.6 FAI Contents Table"
+          href: 080c4dcf-d942-4e22-b616-dde6effa51e2.md
+          items:
+          - name: "2.4.4.6.1 FAI Contents Table Template"
+            href: b2e619a0-6a9c-4101-9dcb-340ac41cf308.md
+        - name: "2.4.4.7 Anatomy of a Folder Hierarchy"
+          href: 412a79f3-5b12-49b3-848f-da1738233db1.md
+        - name: "2.4.4.8 Implications of Modifying a Folder Template Table"
+          href: 55516aaa-d441-4336-91fd-ba168ca9311c.md
+        - name: "2.4.4.9 Implications of Modifying a Folder Object TC"
+          href: 0bee3de8-6e12-459a-a659-d211d0076e7d.md
+      - name: "2.4.5 Message Objects"
+        href: 1042af37-aaa4-4edc-bffd-90a1ede24188.md
+        items:
+        - name: "2.4.5.1 Message Object PC"
+          href: 73697a98-18b9-4a1e-8547-5160d1a854de.md
+          items:
+          - name: "2.4.5.1.1 Property Schema of a Message Object PC"
+            href: 6a967f44-cec3-403d-9100-7313656cc65c.md
+        - name: "2.4.5.2 Locating the Parent Folder Object of a Message Object"
+          href: cf4c8e64-c36b-4a79-96dc-14e47c1d22af.md
+        - name: "2.4.5.3 Recipient Table"
+          href: 0e6d7ebd-c850-4772-ba9d-f5a642c9ff85.md
+          items:
+          - name: "2.4.5.3.1 Recipient Table Template"
+            href: bb069b2b-80ad-46d5-b86f-33487d16bf0c.md
+          - name: "2.4.5.3.2 Message Object Recipient Tables"
+            href: 7de50aec-de1f-40dd-81ef-5e5fb078f6ea.md
+      - name: "2.4.6 Attachment Objects"
+        href: 46eb4828-c6a5-420d-a137-9ee36df317c1.md
+        items:
+        - name: "2.4.6.1 Attachment Table"
+          href: 9770fee7-a353-4f55-9046-4f9ef9e9d4a0.md
+          items:
+          - name: "2.4.6.1.1 Attachment Table Template"
+            href: 47c336f7-2d9b-4f22-91c7-5bb422aaebbb.md
+          - name: "2.4.6.1.2 Message Object Attachment Tables"
+            href: db45c8ae-6d38-4ab7-b444-a5cca3010101.md
+          - name: "2.4.6.1.3 Locating Attachment Object Nodes from the Attachment Table"
+            href: fd3a33fe-6425-4f5f-8db2-c432e09782cc.md
+        - name: "2.4.6.2 Attachment Object PC"
+          href: af7dcc38-920d-4f93-ae9e-a58e00d223b9.md
+          items:
+          - name: "2.4.6.2.1 Property Schema of an Attachment Object PC"
+            href: 37b3a8d1-acde-4759-820d-6febd7befba8.md
+          - name: "2.4.6.2.2 Attachment Data"
+            href: 1c0985fa-83f5-49ba-87dc-3eafb4da4a6f.md
+        - name: "2.4.6.3 Relationship between Attachment Table and Attachment objects"
+          href: f3fcc68c-53ee-4c2a-82d7-113e44f1fb3f.md
+      - name: "2.4.7 Named Property Lookup Map"
+        href: e17e195d-0454-4b9b-b398-c9127a26a678.md
+        items:
+        - name: "2.4.7.1 NAMEID"
+          href: 0d6b4781-92c5-4d49-b24b-b783557098d1.md
+        - name: "2.4.7.2 GUID Stream"
+          href: 0f67b30c-0891-44ef-9a80-24d43ba1b28c.md
+        - name: "2.4.7.3 Entry Stream"
+          href: 838e9da8-4e79-4bbd-aee8-9af10cfc2a08.md
+        - name: "2.4.7.4 The String Stream"
+          href: bbf3cbf6-74f4-48f0-899d-7d79650c021f.md
+        - name: "2.4.7.5 Hash Table"
+          href: 6d390cac-0a02-4a34-9a93-e04e26f149ee.md
+        - name: "2.4.7.6 Data Organization of the Name-to-ID Map"
+          href: 1ba98f4a-2abf-4b49-a7cd-26ae0e177443.md
+      - name: "2.4.8 Search"
+        href: 3991391e-6cf6-4c97-8b9e-fc25bee7391b.md
+        items:
+        - name: "2.4.8.1 Search Update Descriptor (SUD)"
+          href: feced5b5-714b-47e1-8ca0-a8aae53c2fe4.md
+          items:
+          - name: "2.4.8.1.1 SUD Structure"
+            href: ea392b3c-48ca-442b-98c6-f38f5d66f93b.md
+        - name: "2.4.8.2 SUDData Structures"
+          href: 4d919e3b-33b3-46fa-b2ff-17fbc324b12b.md
+          items:
+          - name: "2.4.8.2.1 SUD_MSG_ADD / SUD_MSG_MOD / SUD_MSG_DEL Structure"
+            href: c0a889d8-6a34-431f-8305-91f836620cdb.md
+          - name: "2.4.8.2.2 SUD_MSG_MOV Structure"
+            href: ed48b4c0-a034-4818-9e28-8488c8c30681.md
+          - name: "2.4.8.2.3 SUD_FLD_ADD / SUD_FLD_MOV Structure"
+            href: f8d4750e-9721-479d-acf5-43c902919e0d.md
+          - name: "2.4.8.2.4 SUD_FLD_MOD / SUD_FLD_DEL Structure"
+            href: 249e61f9-d192-42e3-b5bc-9eecc7f2d5e3.md
+          - name: "2.4.8.2.5 SUD_SRCH_ADD / SUD_SRCH_DEL Structure"
+            href: f795bd47-d658-47e1-aa35-f921fa0da8f9.md
+          - name: "2.4.8.2.6 SUD_SRCH_MOD Structure"
+            href: f540791d-b5b5-41fe-8b3c-43cdaf1ef12c.md
+          - name: "2.4.8.2.7 SUD_MSG_SPAM Structure"
+            href: f3776950-d0d4-43d3-9d13-b4c4ae8fe16f.md
+          - name: "2.4.8.2.8 SUD_IDX_MSG_DEL Structure"
+            href: 637f8847-da31-4b1d-8f21-a287e6220fbd.md
+          - name: "2.4.8.2.9 SUD_MSG_IDX Structure"
+            href: cb466e74-75e2-4e22-a474-197592fcb93f.md
+        - name: "2.4.8.3 Basic Queue Node"
+          href: e08cffe6-faaf-4b16-af9b-e23ee96713c9.md
+        - name: "2.4.8.4 Search Management Object (SMO)"
+          href: d1a6bd12-1183-4b8f-be69-0f0946f1c7ee.md
+          items:
+          - name: "2.4.8.4.1 Search Management Queue (SMQ)"
+            href: db1945ea-de3f-4e47-996a-f56c4e8eb029.md
+          - name: "2.4.8.4.2 Search Activity List (SAL)"
+            href: 3131ac6b-4243-475d-a4a0-01db133d559f.md
+          - name: "2.4.8.4.3 Search Domain Object (SDO)"
+            href: 5b20750c-e8f0-421d-b900-197826863f20.md
+        - name: "2.4.8.5 Search Gatherer Object (SGO)"
+          href: 936f0e60-fd24-4884-8de0-8309f9551c74.md
+          items:
+          - name: "2.4.8.5.1 Search Gatherer Queue (SGQ)"
+            href: 984f26d3-6603-4229-974f-4373e5a95c6a.md
+          - name: "2.4.8.5.2 Search Gatherer Descriptor (SGD)"
+            href: 45ac5a7b-6698-4dbd-8a34-e499b79199b9.md
+          - name: "2.4.8.5.3 Search Gatherer Folder Queue (SGFQ)"
+            href: 5dd87c45-5f2d-4945-b7e3-2612bd1a94d3.md
+        - name: "2.4.8.6 Search Folder Objects"
+          href: 4431f207-ef3e-4ce1-aa41-d9ac4a44f69f.md
+          items:
+          - name: "2.4.8.6.1 Search Folder Object (SF)"
+            href: 2dfb3012-b81c-466b-831c-2d2f0c29e591.md
+          - name: "2.4.8.6.2 Search Folder Object Contents Table (SFCT)"
+            href: f7b58f70-2240-497a-9005-7771bcff9cb6.md
+            items:
+            - name: "2.4.8.6.2.1 Search Folder Contents Table Template"
+              href: cdcf9571-049f-47f5-b075-8374057134ec.md
+          - name: "2.4.8.6.3 Search Update Queue (SUQ)"
+            href: a313072b-f742-4b85-bb9e-b861b842ced3.md
+          - name: "2.4.8.6.4 Search Criteria Object (SCO)"
+            href: af3410cc-62a2-4bd9-9e77-8854d535cc22.md
+    - name: "2.5 Calculated Properties"
+      href: 86dd69f7-8bef-48f3-abab-671b54e00976.md
+      items:
+      - name: "2.5.1 Attributes of a Calculated Property"
+        href: 42926f74-bbad-4bf3-bd15-f939af5bdc3b.md
+      - name: "2.5.2 Calculated Properties by Object Type"
+        href: 4bd99355-42f6-4ff7-841f-7ed04e6fd6da.md
+        items:
+        - name: "2.5.2.1 Message Store"
+          href: f2aa97c7-ad3c-4b2c-8e67-b132eb3d04de.md
+        - name: "2.5.2.2 Folder Objects"
+          href: c4169b51-ea49-4102-9e8a-8bc86ce6ff51.md
+        - name: "2.5.2.3 Message Objects"
+          href: 3b890c8d-0276-491e-be58-ea766c888ab0.md
+        - name: "2.5.2.4 Embedded Message Objects"
+          href: 395a455a-8cac-48d5-903b-94464e6d7c98.md
+        - name: "2.5.2.5 Attachment Objects"
+          href: 45792707-9db4-43e5-97fc-a54bd56146b1.md
+      - name: "2.5.3 Calculated Property Behaviors"
+        href: 65d31278-eb81-4f81-bc42-02475236c0af.md
+        items:
+        - name: "2.5.3.1 Behavior Descriptors for Get Operations"
+          href: f37c529b-0cd0-4ffd-83ee-c286636de41a.md
+          items:
+          - name: "2.5.3.1.1 Message Subject Handling Considerations"
+            href: fbba2423-5006-45dd-8ea4-5e0a8eba1f76.md
+            items:
+            - name: "2.5.3.1.1.1 Obtaining the Prefix and Normalized Subject from PidTagSubject"
+              href: 5959edb3-3fb0-4e35-a0dc-c043cd888fdd.md
+            - name: "2.5.3.1.1.2 Rules for Parsing the Subject Prefix"
+              href: ba6398a3-82ba-46aa-bbe9-3eb28917c271.md
+        - name: "2.5.3.2 Behavior Descriptors for Set Operations"
+          href: ac077c32-d0ed-4755-91cb-b971e385f76e.md
+        - name: "2.5.3.3 Behavior Descriptors for Delete Operations"
+          href: 7d761438-aaf8-494c-a882-e0cfd236eb77.md
+        - name: "2.5.3.4 Interpreting the List Behavior Column"
+          href: 4337a2cc-714c-4fda-ac21-2e2f99e89e6d.md
+    - name: "2.6 Maintaining Data Integrity"
+      href: 5e1a4d6b-ebbf-4658-9aa7-824929233044.md
+      items:
+      - name: "2.6.1 NDB Layer"
+        href: 9d2083cf-fd37-4a0d-b61a-d2ef10a89a04.md
+        items:
+        - name: "2.6.1.1 Basic Operations"
+          href: 177684ec-3102-4c27-a3cb-5357475d96e6.md
+          items:
+          - name: "2.6.1.1.1 Allocating Space from the PST"
+            href: d715d1ca-20e9-4966-b9b2-9cd36bd5f657.md
+          - name: "2.6.1.1.2 Growing the PST File"
+            href: cbea68b6-e93e-4477-a8ae-7e71c6b7908e.md
+          - name: "2.6.1.1.3 Freeing Space Back to the PST"
+            href: f6d29a6c-5e1e-4b09-a28d-d6f87f334f8e.md
+          - name: "2.6.1.1.4 Creating a Page"
+            href: 40703178-c913-468c-ad44-e50e61e6db94.md
+          - name: "2.6.1.1.5 Creating a Block"
+            href: fbb1cdf8-1660-489c-bfca-125d05121bf8.md
+          - name: "2.6.1.1.6 Freeing a Page in the PST"
+            href: 7e1477b0-af44-41f8-b6d6-8ca31951333f.md
+          - name: "2.6.1.1.7 Dropping the Reference Count of a Block"
+            href: 44f19aba-6ea7-4835-8f86-c378b90594fd.md
+          - name: "2.6.1.1.8 Modifying a Page"
+            href: e287bee3-dd1a-49aa-86cf-d0f5e4f49efe.md
+          - name: "2.6.1.1.9 Modifying a Block"
+            href: 93faa1bc-e7be-4a15-8ff7-ed81ab7336a0.md
+        - name: "2.6.1.2 NDB Operations"
+          href: e6749bee-6b52-4ede-9097-069a5a9137d9.md
+          items:
+          - name: "2.6.1.2.1 Creating a New Node"
+            href: b0dca92d-4b15-4880-bf45-c1e786260d02.md
+          - name: "2.6.1.2.2 Creating or Adding a Subnode Entry"
+            href: 4ff272a2-5e54-4777-8eb6-8019e6f63d15.md
+          - name: "2.6.1.2.3 Modifying Node Data"
+            href: dc322b87-5d91-4e00-8123-c4a155dfe6dd.md
+          - name: "2.6.1.2.4 Duplicating the Contents of One Node to Another"
+            href: 9daacaf8-19b2-44ca-ba66-a6ce17cebbf4.md
+          - name: "2.6.1.2.5 Modifying Subnode Entry Data"
+            href: 0ef88344-1236-4d5d-9969-e421e501737c.md
+          - name: "2.6.1.2.6 Deleting a Subnode"
+            href: 30652aac-85b6-4da0-aa69-d88191f30a87.md
+          - name: "2.6.1.2.7 Deleting a Node"
+            href: 5c665105-ea03-4c4e-a89b-2a8619b40280.md
+        - name: "2.6.1.3 Special Considerations"
+          href: bee941c3-387c-4cd3-b284-ac821c2e1bed.md
+          items:
+          - name: "2.6.1.3.1 Immutability"
+            href: a6b9c705-4036-421b-8493-2fb2bbb9f3a1.md
+          - name: "2.6.1.3.2 Single-Instance Storage"
+            href: a5960791-199f-4eaf-99a3-9e7dc4cb6bab.md
+          - name: "2.6.1.3.3 Transactional Semantics"
+            href: bc5a92df-7fc1-4dc2-9c7c-5677237dd73a.md
+          - name: "2.6.1.3.4 Backfilling"
+            href: 92fa6193-7876-4082-85c7-026aae80500b.md
+          - name: "2.6.1.3.5 Internal Fragmentation and Locality of Reference"
+            href: f6376d81-3ecb-4965-bb61-776ee6b21ed2.md
+          - name: "2.6.1.3.6 Caching"
+            href: 35847d36-42ec-422e-ac07-4c2c6cbb48ff.md
+          - name: "2.6.1.3.7 Crash Recovery and AMap Rebuilding"
+            href: d9bcc1fd-c66a-41b3-b6d7-ed09d2a25ced.md
+      - name: "2.6.2 LTP Layer"
+        href: 4fff5d0a-0c5c-4330-88d5-e659d1e544d1.md
+        items:
+        - name: "2.6.2.1 HN Operations"
+          href: a5f0bc87-f5db-49fa-9a6b-549d8b7d862d.md
+          items:
+          - name: "2.6.2.1.1 Creating an HN"
+            href: a29ef0f7-1a42-4483-a14c-c245d066e23a.md
+          - name: "2.6.2.1.2 Allocating from the HN"
+            href: 5b30032e-8cbc-4f03-a6bd-c21a7f1c54ea.md
+          - name: "2.6.2.1.3 Freeing an Allocation"
+            href: f774eb0a-f6d7-4240-b515-3213bd9c5c40.md
+          - name: "2.6.2.1.4 Deleting an HN"
+            href: 6252617b-26db-4fac-a7f7-50e7dc1c1467.md
+        - name: "2.6.2.2 BTH Operations"
+          href: 03a32db0-6dbc-43a2-afd8-654f51470880.md
+          items:
+          - name: "2.6.2.2.1 Creating a BTH"
+            href: bfb05b53-2091-49be-a9e1-1d2434f997ed.md
+          - name: "2.6.2.2.2 Inserting into the BTH"
+            href: 8d33406c-1796-442e-9114-af478ef1341f.md
+          - name: "2.6.2.2.3 Modifying Contents of a BTH Entry"
+            href: 55245797-279e-4c2d-94bc-547bc26be59c.md
+          - name: "2.6.2.2.4 Deleting a BTH Entry"
+            href: 21d49035-3818-4a4c-bc54-0e271cb9ce81.md
+          - name: "2.6.2.2.5 Deleting a BTH"
+            href: b4ecc607-35f7-404a-802c-e812d73210cb.md
+        - name: "2.6.2.3 PC Operations"
+          href: db6fbe8e-4e5b-487c-b492-88d4b53d5853.md
+          items:
+          - name: "2.6.2.3.1 Creating a PC"
+            href: 1e645de0-2291-457d-8e3b-3ae415a481ce.md
+          - name: "2.6.2.3.2 Inserting into the PC"
+            href: 06096284-9b6a-41ea-8bf2-6615bee0752e.md
+          - name: "2.6.2.3.3 Modifying the Value of a Property"
+            href: b0848da7-e670-499d-8f26-ac82b3e83835.md
+          - name: "2.6.2.3.4 Deleting a Property"
+            href: c30a75c2-b2d0-4745-9e5b-b883f83e12f1.md
+          - name: "2.6.2.3.5 Deleting a PC"
+            href: 3e05614a-2a40-4b4d-8d92-dc88293b24ac.md
+        - name: "2.6.2.4 TC Operations"
+          href: c1dc2917-b819-44b1-b3eb-84966df8b1a4.md
+          items:
+          - name: "2.6.2.4.1 Creating a TC"
+            href: a3cafcd6-454a-46b4-a122-ebbda9ae56fb.md
+          - name: "2.6.2.4.2 Inserting into the TC"
+            href: 1a94f596-d840-4f66-824e-af1024fb6944.md
+          - name: "2.6.2.4.3 Modifying Contents of a Table Row"
+            href: c3de6cd5-8bf4-415d-b854-2c1bc6c36488.md
+          - name: "2.6.2.4.4 Adding a Column"
+            href: 07483b5c-bdaa-4b48-a68a-b24c0c720a85.md
+          - name: "2.6.2.4.5 Deleting the Value of a Column"
+            href: 332d9862-9d0c-413e-9222-e3c553c81833.md
+          - name: "2.6.2.4.6 Deleting a Column"
+            href: 33f1015f-8055-408d-9d1c-fda96d9fbe14.md
+          - name: "2.6.2.4.7 Deleting a Row"
+            href: 5a0450b5-61c3-4bb0-9837-fd14a00040d2.md
+          - name: "2.6.2.4.8 Deleting a TC"
+            href: 9d0c7a2f-8cfd-46e9-88aa-b9e8615c500c.md
+      - name: "2.6.3 Messaging Layer"
+        href: 4fd478e3-12fa-4fb1-a6be-6a61cf3c47dc.md
+        items:
+        - name: "2.6.3.1 Message Store Operations"
+          href: bb59db58-78e8-4665-9c98-9dd4fad0d44e.md
+          items:
+          - name: "2.6.3.1.1 Creating the Message Store"
+            href: f6b54f0c-57ff-4c97-81d3-fa545dfe2d10.md
+          - name: "2.6.3.1.2 Modifying Properties of the Message Store"
+            href: 4b143476-3feb-45f1-8cdd-a79ff991cc17.md
+        - name: "2.6.3.2 Folder Object Operations"
+          href: 3960219b-89d7-4f85-b0f3-aa1dd6f69488.md
+          items:
+          - name: "2.6.3.2.1 Creating a Folder Object"
+            href: a5c8bcf8-706d-4db2-afc4-1f5cb239dc63.md
+          - name: "2.6.3.2.2 Modifying Properties of a Folder Object"
+            href: d17234d1-4de9-436e-a412-186b42dd1a8b.md
+          - name: "2.6.3.2.3 Adding a Sub-Folder Object"
+            href: 3860193e-6079-442b-ab3d-875ec6eb805a.md
+          - name: "2.6.3.2.4 Moving a Folder Object"
+            href: f2c7a242-547e-4a2a-9008-c305e0cb3ee9.md
+          - name: "2.6.3.2.5 Copying a Folder Object"
+            href: 833a7f7b-163f-4309-a312-3efb6cdfee27.md
+          - name: "2.6.3.2.6 Adding a Message Object"
+            href: eaab9353-53fe-448f-a32f-d45afd3c4b5d.md
+          - name: "2.6.3.2.7 Copying a Message Object"
+            href: f4d3acbb-413d-49b2-a58b-fe152fe0062b.md
+          - name: "2.6.3.2.8 Moving a Message Object"
+            href: 883276c8-2893-4fa7-a83c-02917b2b00a3.md
+          - name: "2.6.3.2.9 Deleting a Sub-Folder Object"
+            href: 0464e2c7-f9e3-43b5-8538-1989b5a29c6b.md
+          - name: "2.6.3.2.10 Deleting a Message Object"
+            href: 73da054b-fea0-43a3-be12-ed8e6e024b4d.md
+        - name: "2.6.3.3 Message Object Operations"
+          href: 240b9225-2907-4605-a975-ff93337f8cb8.md
+          items:
+          - name: "2.6.3.3.1 Creating a Message Object"
+            href: 987c27c1-bf5b-42aa-b864-c152f918fa3c.md
+          - name: "2.6.3.3.2 Modifying Properties of a Message Object"
+            href: bd155f0d-2dd7-4f97-9604-67a12fe39090.md
+          - name: "2.6.3.3.3 Adding a Recipient"
+            href: 44f87949-bf5f-4aa9-b0ec-569029a0d286.md
+          - name: "2.6.3.3.4 Modifying Recipient Properties"
+            href: cbcf0844-740f-4fd0-83b6-aac03f539135.md
+          - name: "2.6.3.3.5 Adding an Attachment Object"
+            href: 14d77d83-bd42-4da8-b9ce-22b41c951c9d.md
+          - name: "2.6.3.3.6 Modifying Properties of an Attachment Object"
+            href: 40075070-ace4-4d24-8720-d089b6859d64.md
+          - name: "2.6.3.3.7 Deleting a Recipient"
+            href: d1aaa28c-181b-4074-ab83-4ca3b12fe831.md
+          - name: "2.6.3.3.8 Deleting an Attachment Object"
+            href: 84ad2025-ddae-43fc-8cc7-d9b43dc498fd.md
+        - name: "2.6.3.4 Name-to-ID Map Operations"
+          href: b880497c-7647-42b8-a2bc-873aae640229.md
+          items:
+          - name: "2.6.3.4.1 Creating the Name-to-ID Map"
+            href: b38d17ec-27fa-44e5-a62b-8ef6049abdbc.md
+          - name: "2.6.3.4.2 Adding a Named Property"
+            href: bc5fc0cf-43a5-4146-b266-3d137ac35158.md
+          - name: "2.6.3.4.3 Deleting a Named Property"
+            href: 612f3172-b46d-409f-8b91-792ebb1a171a.md
+    - name: "2.7 Minimum PST Requirements"
+      href: 2b64b768-7a65-40cc-862f-5109aa81c5c5.md
+      items:
+      - name: "2.7.1 Mandatory Nodes"
+        href: 661f9921-54ff-4768-b98c-91954312af52.md
+      - name: "2.7.2 Minimum Folder Hierarchy"
+        href: cbaeebd5-8277-475b-b2df-b98db8d0e300.md
+      - name: "2.7.3 Minimum Object Requirements"
+        href: 7af54176-5108-4ac7-973f-8252ad223acb.md
+        items:
+        - name: "2.7.3.1 Message Store"
+          href: c19b0bde-eb25-4efa-830a-9f60f3a918ef.md
+        - name: "2.7.3.2 Name-to-ID Map"
+          href: 5161fee7-42b1-4790-8337-411892b0032c.md
+        - name: "2.7.3.3 Template Objects"
+          href: c1af6316-b8a4-4b17-883e-3a60189f361c.md
+        - name: "2.7.3.4 Folders"
+          href: 566da784-691f-44d7-b423-a6e5781cc816.md
+          items:
+          - name: "2.7.3.4.1 Root Folder"
+            href: ad097975-0d95-4dce-b919-0c9e55717b9a.md
+          - name: "2.7.3.4.2 Top of Personal Folders (IPM SuBTree)"
+            href: ea4d8b8a-6062-4930-94ee-555527a274d1.md
+          - name: "2.7.3.4.3 Search Root"
+            href: 8c67cbb0-ce1a-4243-877b-c3214b43ad8b.md
+          - name: "2.7.3.4.4 Spam Search Folder"
+            href: 5c99e623-d741-4046-b2be-ba7904668af8.md
+          - name: "2.7.3.4.5 Deleted Items"
+            href: eecee387-d915-4af8-a0ac-aaf3726aeeb3.md
+        - name: "2.7.3.5 Search-Related Objects"
+          href: e70c072d-dbb1-4899-9ec7-1dcdc651f3a6.md
+  - name: "3 Structure Examples"
+    href: 835d0849-50eb-48be-a767-4078a637cd8f.md
+    items:
+    - name: "3.1 Sample Node Database (NDB)"
+      href: 903241a7-8e4d-4ff6-93e4-78a3d74bd8dc.md
+    - name: "3.2 Sample Header"
+      href: 7fa4900e-cd66-46ca-8d98-ee11f6a668ac.md
+    - name: "3.3 Sample Intermediate BT Page"
+      href: ef7837e0-22be-4da5-9c5f-1c79db6532f4.md
+    - name: "3.4 Sample Leaf NBT Page"
+      href: d829f62f-e1fa-45e3-918a-ad9d95b2660f.md
+    - name: "3.5 Sample Leaf BBT Page"
+      href: 17939c1c-325e-4bb1-8e03-20b0fbc8bf0c.md
+    - name: "3.6 Sample Data Tree"
+      href: c65f1100-6dde-4a41-8eaf-db907c9dbb8a.md
+    - name: "3.7 Sample SLBLOCK"
+      href: fa684e53-de03-4e71-86b3-b99277200c88.md
+    - name: "3.8 Sample Heap-on-Node (HN)"
+      href: 8773374f-8495-44fe-9614-6c4f60418489.md
+    - name: "3.9 Sample BTH"
+      href: f706a5a7-14ff-4fb0-bc3c-2ed7955de13d.md
+    - name: "3.10 Sample Message Store"
+      href: 8fa17657-df23-466d-b09b-29742a745246.md
+    - name: "3.11 Sample TC"
+      href: d0126306-abac-4515-bca0-fe6392f3ccb8.md
+    - name: "3.12 Sample Folder Object"
+      href: 59235d49-bd76-4759-b26c-9769e97c4106.md
+    - name: "3.13 Sample Message Object"
+      href: 5ee9a00a-858b-47db-95b3-f91518640ea7.md
+  - name: "4 Security Considerations"
+    href: fe200f43-bb3d-41d1-9e59-0a7f94064ba4.md
+    items:
+    - name: "4.1 Strength of Encoded PST Data Blocks"
+      href: 798f15fa-2e4f-4597-9059-ffe7895cd7b8.md
+    - name: "4.2 Strength of PST Password"
+      href: a1b4b061-398d-4252-8593-1e42c0908ac6.md
+  - name: "5 Appendix A: PST Data Algorithms"
+    href: 0347b9db-19db-437f-987d-4bc8841fbe50.md
+    items:
+    - name: "5.1 Permutative Encoding"
+      href: 5faf4800-645d-49d1-9457-2ac40eb467bd.md
+    - name: "5.2 Cyclic Encoding"
+      href: 9979fc01-0a3e-496f-900f-a6a867951f23.md
+    - name: "5.3 CRC Calculation"
+      href: 39c35207-130f-4d83-96f8-2b311a285a8f.md
+    - name: "5.4 Conversation ID"
+      href: a19c8e83-bb3b-4061-b027-aa2e82061283.md
+    - name: "5.5 Block Signature"
+      href: e700a913-9db5-46a4-ac76-37cabea823e1.md
+  - name: "6 Appendix B: Product Behavior"
+    href: f040f8b2-f023-4ed9-94fd-de487da83ed5.md
+  - name: "7 Change Tracking"
+    href: 5ef06572-0938-4652-8f56-753c0e74b9ba.md
+  - name: "8 Index"
+    href: 33a38370-d25f-4ffa-8e5a-b267592d8364.md

@@ -1,0 +1,16 @@
+- name: HTML Test Docs
+  href: index.md
+  homepage: index.md
+  items:
+    - name: Exchange Docs
+      href: articles/exchangeindex.md
+      items:
+        - name: MS-OXCNOTIF
+          href: articles/MS-OXCNOTIF/
+        - name: MS-OXPROTO
+          href: articles/MS-OXPROTO/          
+    - name: Office Docs
+      href: articles/officeindex.md
+      items:
+        - name: MS-PST
+          href: articles/MS-PST/

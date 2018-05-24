@@ -1,0 +1,403 @@
+- name: "[MS-OXPROTO]: Exchange Server Protocols System Overview"
+  href: 734ab967-e43e-425b-abe1-974af56c0283.md
+  items:
+  - name: "1 Introduction"
+    href: 665212ea-222d-42cb-96f0-d285485cb277.md
+    items:
+    - name: "1.1 Glossary"
+      href: f888c37a-d994-4b91-96a5-e88cfbd66bd6.md
+    - name: "1.2 References"
+      href: 274e83d0-155e-43cf-ba50-592a5714eb3f.md
+  - name: "2 Functional Architecture"
+    href: 52c4cad2-8850-4fbd-acd9-9e9932cb8848.md
+    items:
+    - name: "2.1 Overview"
+      href: 5568006a-3827-4faf-a29b-41394780860a.md
+      items:
+      - name: "2.1.1 Message Store"
+        href: 8a1be138-34c0-44ef-b7c9-4ced4021998c.md
+      - name: "2.1.2 Message Processing System"
+        href: d4d96df4-026c-4255-b3f6-6dea319ce501.md
+      - name: "2.1.3 Communications within the System"
+        href: 75038d71-2262-410e-8b4a-6cae139255e2.md
+        items:
+        - name: "2.1.3.1 Between an E-Mail Client and Exchange Servers"
+          href: 82513d12-fe71-4ce2-a777-1690892a4639.md
+        - name: "2.1.3.2 Between a Messaging Client and Exchange Servers"
+          href: 910b2981-bea3-4f21-9e48-af54c9ad667c.md
+        - name: "2.1.3.3 Between a Mobile Client Device and Exchange Servers"
+          href: 1005eb7e-9aba-497a-ba57-8d3c3adafcec.md
+        - name: "2.1.3.4 Between a Messaging Client and Directory Service"
+          href: 3208e91e-5b4c-4c94-a676-c2791626cc5d.md
+        - name: "2.1.3.5 Between a Messaging Client and DNS"
+          href: bcb78d53-87b9-4558-8e95-41c6bfec9a92.md
+    - name: "2.2 Protocol Summary"
+      href: 4c492f56-ef95-4c8d-b505-e3c55c364c61.md
+      items:
+      - name: "2.2.1 Microsoft Exchange Supplemental Documents"
+        href: 9503d00d-32ec-48c7-b6a2-552794f6d6e3.md
+      - name: "2.2.2 ROP Primer/Storage and Retrieval Protocols"
+        href: a936a143-4370-4008-8991-86f31f0df4e1.md
+        items:
+        - name: "2.2.2.1 ROP Primer Protocols"
+          href: ee6ef7cf-d559-4274-8925-dac426a40d5e.md
+        - name: "2.2.2.2 ROP Storage and Retrieval Protocols"
+          href: 3105a66f-f974-4dcf-a194-e816d23e5ea2.md
+      - name: "2.2.3 Content Conversion Protocols"
+        href: e367f7bd-fa61-4379-9f30-5e76bfe96437.md
+        items:
+        - name: "2.2.3.1 Content Conversion File Formats"
+          href: 3aff2d72-7f22-4510-a51e-7e3f13e0d531.md
+      - name: "2.2.4 Exchange ActiveSync Protocols"
+        href: 8b83944d-0eed-4b2b-87dd-1982733ec089.md
+      - name: "2.2.5 Directory/Profile Services Protocols"
+        href: 37ea6454-bf65-49c3-8a04-7636273e8dea.md
+      - name: "2.2.6 Address Book-related Protocols"
+        href: e83c6ce0-91ba-4939-bfd9-91f1ac831099.md
+      - name: "2.2.7 Standards Support Protocol Extensions"
+        href: 4831a907-caf3-4aa2-b8f3-4271429079bf.md
+        items:
+        - name: "2.2.7.1 Compliance-Related Standards-Based Protocols Support"
+          href: 69c53da5-3a25-4097-bf35-e7325a5981a5.md
+      - name: "2.2.8 Message Processing Protocols"
+        href: be709ffd-ccba-48a3-b18a-faa839854767.md
+        items:
+        - name: "2.2.8.1 Journal Message Processing File Format"
+          href: 4ead3be4-d1ac-48cf-92ac-52b58ad7bbd2.md
+        - name: "2.2.8.2 Filter Message Processing Protocols"
+          href: 51f12eb6-e033-4d3d-ade8-540b48ee0456.md
+        - name: "2.2.8.3 Sharing Message Processing Schemas"
+          href: 910d32a4-7d58-480c-b592-71b55ecf31c2.md
+      - name: "2.2.9 WebDAV Protocol Extensions"
+        href: 499d65b2-0972-4edf-b8b5-e245bdda9596.md
+      - name: "2.2.10 Web Service Protocols"
+        href: e91d2bc8-687f-4ca2-bc68-2b3854eb5113.md
+    - name: "2.3 Environment"
+      href: fae76f06-02ff-4dcf-bad7-639703d4bd31.md
+      items:
+      - name: "2.3.1 Dependencies on This System"
+        href: 717d9070-1f88-451b-bbd6-e38e4df5080b.md
+        items:
+        - name: "2.3.1.1 RPC-Enabled Clients"
+          href: facb8aa0-194e-4ecc-9d1d-8a61939d5c04.md
+        - name: "2.3.1.2 Non-RPC-Enabled Clients"
+          href: d6bd2f4e-8908-4347-bf07-f36fd0920ef1.md
+        - name: "2.3.1.3 Mobile Device Clients"
+          href: 46d224e1-03b1-4976-a5f5-7b7b1d847027.md
+        - name: "2.3.1.4 Document Sharing and Collaboration Services"
+          href: 8c652ce9-1b65-4223-bb8a-766494a67a1a.md
+        - name: "2.3.1.5 Unified Messaging Clients"
+          href: 375358b4-782f-4be9-aeaf-6062757d5fda.md
+      - name: "2.3.2 Dependencies on Other Systems/Components"
+        href: df4a169c-2a0a-41d6-ab17-637356a5b74b.md
+        items:
+        - name: "2.3.2.1 Domain Controller/Directory Service"
+          href: 3a21dcd7-854f-4e33-a6ad-2beda22d1cc2.md
+        - name: "2.3.2.2 DNS Service"
+          href: 6290acac-c426-4ab7-aaa3-901cb8247e37.md
+    - name: "2.4 Assumptions and Preconditions"
+      href: 33587ed2-b891-4a3d-bce1-93acf5e9d0d8.md
+    - name: "2.5 Use Cases"
+      href: 24d8638b-3a29-420d-9611-905a4e9cf679.md
+      items:
+      - name: "2.5.1 Server Information Discovery"
+        href: 035bf52d-4f77-4310-b445-d63512076691.md
+        items:
+        - name: "2.5.1.1 Synopsis"
+          href: 7826f6f7-91e3-4242-b16d-7575d746bcf7.md
+        - name: "2.5.1.2 Builds on Use Case(s)"
+          href: 78dcddbf-1e38-4c6a-8854-9c89bd2c603a.md
+        - name: "2.5.1.3 References"
+          href: a157f238-28ef-44df-8393-bbb187ee285d.md
+        - name: "2.5.1.4 Requirements"
+          href: ee728f14-06c1-434d-9fc1-edaf2344de71.md
+        - name: "2.5.1.5 Protocol-Specific Details"
+          href: d90cc30a-bdb7-43f0-81ec-d76a873f256f.md
+      - name: "2.5.2 Log On to a Mailbox"
+        href: 073b1877-3b61-4cbe-bd4e-8e158a1a8795.md
+        items:
+        - name: "2.5.2.1 Synopsis"
+          href: 29f858c3-b5de-44a5-8e75-7329f31caeba.md
+        - name: "2.5.2.2 Builds on Use Case(s)"
+          href: cb34499a-4466-4253-beb0-1edc89bf99fb.md
+        - name: "2.5.2.3 References"
+          href: d05c1bbd-a323-40c2-a7b5-35da9edba062.md
+        - name: "2.5.2.4 Requirements"
+          href: a93deca8-614a-4011-9fce-1bf6e82b0def.md
+        - name: "2.5.2.5 Protocol-Specific Details"
+          href: 72cb276a-a76d-498b-9ed5-d4f8351461c7.md
+      - name: "2.5.3 Create a Message"
+        href: 9f011f97-a468-422c-a65d-0df484b07106.md
+        items:
+        - name: "2.5.3.1 Synopsis"
+          href: 0a182f86-763c-4d4e-aab4-9a50a61c83c6.md
+        - name: "2.5.3.2 Builds on Use Case(s)"
+          href: 5f8e347c-a3cc-480f-a163-adfda5488328.md
+        - name: "2.5.3.3 References"
+          href: eb084f80-8b2b-4f0a-a0db-982709074ef8.md
+        - name: "2.5.3.4 Requirements"
+          href: 4e62dc4b-b6f5-4662-aad9-8f1ce43fd060.md
+        - name: "2.5.3.5 Protocol-Specific Details"
+          href: 995b1f0e-a9fe-4ab5-8351-e431f96fbe23.md
+      - name: "2.5.4 Create a Strongly Typed Message"
+        href: 245835fb-b4d1-43ef-a561-a56ecca4fa8e.md
+        items:
+        - name: "2.5.4.1 Synopsis"
+          href: 45aa58f0-9897-4fee-bb7f-781b69fa444d.md
+        - name: "2.5.4.2 Builds on Use Case(s)"
+          href: 3130450b-dde8-45ae-a4e5-c9f17c510a94.md
+        - name: "2.5.4.3 References"
+          href: 48a624be-152c-43fc-93b1-c551302c7368.md
+        - name: "2.5.4.4 Requirements"
+          href: 0b6c7f45-d472-470c-a2f9-34ec07881802.md
+        - name: "2.5.4.5 Protocol-Specific Details"
+          href: ad767a88-642c-4baf-afad-eaf4277c19dc.md
+      - name: "2.5.5 Add an Attachment"
+        href: c1abb893-7b4f-41ca-a3ce-a155301c5e1e.md
+        items:
+        - name: "2.5.5.1 Synopsis"
+          href: 8625c33f-3808-4261-b16c-3ee88b60abd8.md
+        - name: "2.5.5.2 Builds on Use Case(s)"
+          href: 9b285ef5-3ecf-45b6-a81c-2e072e6da99b.md
+        - name: "2.5.5.3 References"
+          href: b7d3e81c-b883-4676-82f5-04288ea138f9.md
+        - name: "2.5.5.4 Requirements"
+          href: 7dd25f64-8607-42b6-8425-215c5307b933.md
+        - name: "2.5.5.5 Protocol-Specific Details"
+          href: afdfb661-95df-4cf4-8156-4426bcc21300.md
+      - name: "2.5.6 Resolve a Recipient from an Address Book"
+        href: 4d562c60-77cc-4261-b858-d3e5b08eef0f.md
+        items:
+        - name: "2.5.6.1 Synopsis"
+          href: 8da9deaa-be54-48da-804e-7a040b541a5a.md
+        - name: "2.5.6.2 Builds on Use Case(s)"
+          href: cb7fdbfe-695e-4d98-84b7-70ea4c0dc982.md
+        - name: "2.5.6.3 References"
+          href: e9502909-a284-4feb-959d-fabc81554df4.md
+        - name: "2.5.6.4 Requirements"
+          href: 84870ede-4948-4513-955a-ebb483864877.md
+        - name: "2.5.6.5 Protocol-Specific Details"
+          href: 4806d9d5-857b-457d-ae92-a4eed4c12419.md
+      - name: "2.5.7 Send a Message"
+        href: f9893689-a4aa-423c-82a4-4c714bf90b31.md
+        items:
+        - name: "2.5.7.1 Synopsis"
+          href: e3e490e9-0d81-4740-af3b-765b74c63cb0.md
+        - name: "2.5.7.2 Builds on Use Case(s)"
+          href: 967d2771-cec0-413d-8691-7d8d19a45763.md
+        - name: "2.5.7.3 References"
+          href: 3b2a0146-00cd-4884-9b33-508acf6e1d96.md
+        - name: "2.5.7.4 Requirements"
+          href: 58e0232b-671e-4d4f-932d-d60e555fa68f.md
+        - name: "2.5.7.5 Protocol-Specific Details"
+          href: 6da3f5e2-b84d-4b47-bbb6-c284effce199.md
+      - name: "2.5.8 Send a Message to a Remote Recipient"
+        href: 1b01a71a-8354-4ce7-b189-eeba34c1640e.md
+        items:
+        - name: "2.5.8.1 Synopsis"
+          href: aa41ee09-2abb-438b-92aa-32d62bc42b4c.md
+        - name: "2.5.8.2 Builds on Use Case(s)"
+          href: 33e0dc5b-b330-4b0c-8caf-854911d8b18d.md
+        - name: "2.5.8.3 References"
+          href: 98dbd266-82bc-4b32-a6e5-62b0e6215efa.md
+        - name: "2.5.8.4 Requirements"
+          href: bed333fa-e701-4bc3-8962-4a8473b7b80d.md
+        - name: "2.5.8.5 Protocol-Specific Details"
+          href: 7636f6fd-7546-43dd-b13f-4572631c9c93.md
+      - name: "2.5.9 Open a Folder"
+        href: c17348f9-48a3-48ca-a6d7-783f26af9159.md
+        items:
+        - name: "2.5.9.1 Synopsis"
+          href: 42809a8e-732f-4f2a-a651-1ce9e63f226b.md
+        - name: "2.5.9.2 Builds on Use Case(s)"
+          href: 182833cc-1d49-4eb1-a3ea-4db9914b139a.md
+        - name: "2.5.9.3 References"
+          href: fb5f79b4-fee7-4c7d-b967-58b96ed8e067.md
+        - name: "2.5.9.4 Requirements"
+          href: eafa5a6f-dd0c-441c-aa54-6612c48bbda6.md
+        - name: "2.5.9.5 Protocol-Specific Details"
+          href: 2854d8fb-c1ee-417f-a7ff-a19c9ea4ba1f.md
+      - name: "2.5.10 Find Items in a Folder That Match Search Criteria"
+        href: ca1975f0-c908-4916-86c8-ea3ddc011b45.md
+        items:
+        - name: "2.5.10.1 Synopsis"
+          href: 46f7b024-4121-413a-b361-4ec0767c1b9b.md
+        - name: "2.5.10.2 Builds on Use Case(s)"
+          href: 94a578e5-3842-4368-9a52-8bbcc2070c1e.md
+        - name: "2.5.10.3 References"
+          href: 2ec1bf90-4db2-4598-8726-3cf409be7ad4.md
+        - name: "2.5.10.4 Requirements"
+          href: 07b8b322-2265-43ab-a9dd-bb11315affb5.md
+        - name: "2.5.10.5 Protocol-Specific Details"
+          href: 0f7656fe-992e-49af-85d9-9f0b85721d18.md
+      - name: "2.5.11 Delete Message(s)"
+        href: b22411b2-d1a0-492c-9aa4-d118f696169d.md
+        items:
+        - name: "2.5.11.1 Synopsis"
+          href: 4aeb5554-bc3d-4cc6-937d-d841b4fbeb06.md
+        - name: "2.5.11.2 Builds on Use Case(s)"
+          href: ce259d49-8c34-4058-a148-dcc6fbc3c323.md
+        - name: "2.5.11.3 References"
+          href: ea83ebf1-2ece-491b-8f26-78bd9a06c281.md
+        - name: "2.5.11.4 Requirements"
+          href: c60eb0cd-ffef-42c7-91a0-d4641ee0beaf.md
+        - name: "2.5.11.5 Protocol-Specific Details"
+          href: 3ad20de1-db0a-4755-95f8-4ced260873e7.md
+      - name: "2.5.12 Synchronize Item(s)"
+        href: c6b47c0c-7d1c-4b2e-b78d-75b41f0de85b.md
+        items:
+        - name: "2.5.12.1 Synopsis"
+          href: e25b61ee-33ca-4b0e-88ab-38f4c75e1aa5.md
+        - name: "2.5.12.2 Builds on Use Case(s)"
+          href: ec482b53-6357-4ed3-adf5-a0a66d8fa334.md
+        - name: "2.5.12.3 References"
+          href: 520089e2-655d-4c73-a01b-4f0b2a4be342.md
+        - name: "2.5.12.4 Requirements"
+          href: 4f336e31-4676-47b7-a863-f64db36bbbc5.md
+        - name: "2.5.12.5 Protocol-Specific Details"
+          href: c4fbd635-72b6-4362-aece-01b380346595.md
+      - name: "2.5.13 Register For and Receive Notifications"
+        href: d85813a5-373e-4cff-9745-1e345e99b793.md
+        items:
+        - name: "2.5.13.1 Synopsis"
+          href: 634afef3-a2e9-4611-b182-57bba63ddbc7.md
+        - name: "2.5.13.2 Builds on Use Case(s)"
+          href: 4e40be94-f357-42bc-9185-35e6ca988385.md
+        - name: "2.5.13.3 References"
+          href: 932bf2db-a6f0-4b1e-9874-1c11228805eb.md
+        - name: "2.5.13.4 Requirements"
+          href: abd4ef8b-b994-4fff-b00d-d59ce9115c19.md
+        - name: "2.5.13.5 Protocol-Specific Details"
+          href: 21af4f7a-bc8e-41f5-ba50-f74a80b55183.md
+      - name: "2.5.14 Provision a Mobile Client Device"
+        href: c2474f75-ece8-4fc9-bf9e-30ffe4c45432.md
+        items:
+        - name: "2.5.14.1 Synopsis"
+          href: 65609026-e340-4d2e-ab8b-dc4870f72385.md
+        - name: "2.5.14.2 Build on Use Case(s)"
+          href: f1b05bba-fec5-424d-b55d-7685ebf483ca.md
+        - name: "2.5.14.3 References"
+          href: 0a10e91f-2ab3-49e1-8007-3ce17038c252.md
+        - name: "2.5.14.4 Requirements"
+          href: 713046db-ebc0-4bd4-a700-391c47823db2.md
+        - name: "2.5.14.5 Protocol-Specific Details"
+          href: 3764ce5a-8c53-4665-8cc7-07bafe0db341.md
+    - name: "2.6 Versioning, Capability Negotiation, and Extensibility"
+      href: 910d9386-c7f7-4f08-91f0-b70b9e938b5f.md
+      items:
+      - name: "2.6.1 Version Negotiation Using RPC"
+        href: 57be867d-decb-4334-b7f4-c5ad200c4e6b.md
+      - name: "2.6.2 Version Negotiation Using MAPI Extensions for HTTP"
+        href: 37727784-dfd7-49f6-a41b-414ab2b85f6b.md
+      - name: "2.6.3 Version Negotiation Using Exchange Web Services"
+        href: 3c944d98-550a-4cc2-9907-4b080d9a3fc6.md
+      - name: "2.6.4 Version Negotiation Using Exchange ActiveSync"
+        href: 0a5b6666-d7d1-4024-a0d4-d9e53a3ff294.md
+    - name: "2.7 Error Handling"
+      href: 86c3659b-c27a-403d-97f1-b35c666d897d.md
+      items:
+      - name: "2.7.1 SMTP"
+        href: 7ec3a39a-75fc-4bc5-9b79-d59af92ef981.md
+      - name: "2.7.2 Remote Operations (ROPs)"
+        href: 1336cb79-12b8-41ee-baef-3b2d8d919d31.md
+      - name: "2.7.3 Exchange Web Services"
+        href: 5021857e-ee59-4593-b0c2-19aff30983cc.md
+      - name: "2.7.4 POP3"
+        href: 17bdbdd8-cb9e-4031-a56e-23f6a709960a.md
+      - name: "2.7.5 IMAP4"
+        href: 89d6ed96-4e86-424c-9d2e-9650f8425a2e.md
+      - name: "2.7.6 WebDAV"
+        href: 38529ca6-b0a8-447e-8d0a-779730206d5d.md
+      - name: "2.7.7 Address Book"
+        href: dde0cfc8-c07e-4298-9184-a332623cfaa8.md
+      - name: "2.7.8 Unified Messaging"
+        href: 7b4821f8-4f57-4d0d-8ecf-8eeb34eac0fa.md
+      - name: "2.7.9 Exchange ActiveSync"
+        href: c28bbd9f-b782-457b-ad7d-580b7673a810.md
+      - name: "2.7.10 DNS"
+        href: c66f283c-8b58-4082-81ca-def69d2f0b8d.md
+      - name: "2.7.11 Directory Service"
+        href: 7c5edeee-26fc-4940-8f56-b10d028a69c9.md
+    - name: "2.8 Coherency Requirements"
+      href: 16d29556-3469-4896-a3ff-4c1c4fd6edc2.md
+    - name: "2.9 Security"
+      href: ea8cade7-4f61-4b64-bd06-1c10b69b1a9c.md
+    - name: "2.10 Additional Considerations"
+      href: f43b283e-ff33-4319-a9b7-f59a863873df.md
+  - name: "3 Examples"
+    href: e2d44907-19ed-472e-a2ec-6c8cabbafcf4.md
+    items:
+    - name: "3.1 Example 1: Display the Most Recent Message in the Inbox"
+      href: ddc2083b-88e5-4199-b4ec-a9e1d4f97ede.md
+      items:
+      - name: "3.1.1 Synopsis"
+        href: 06b6bbdb-f27a-4e49-a05c-16dfb3541f7a.md
+      - name: "3.1.2 Use Cases"
+        href: 3df2a3c1-7b53-4a5e-be40-c50ecc032789.md
+      - name: "3.1.3 Entities Involved"
+        href: e8a28552-991a-44bb-a764-63ce6b6e9c3c.md
+      - name: "3.1.4 Preconditions"
+        href: 1b713a58-6328-4ca7-9db9-059a6ebc85d4.md
+      - name: "3.1.5 Details"
+        href: 58b7f124-30ce-42d6-a187-188776505c67.md
+    - name: "3.2 Example 2: Compose and Send an E-Mail Message with an Attachment"
+      href: ef5a81cc-980b-4d29-b563-b888a795c0bd.md
+      items:
+      - name: "3.2.1 Synopsis"
+        href: 04616d88-6e50-4856-9442-c1efd7849e6e.md
+      - name: "3.2.2 Use Cases"
+        href: f177c36f-785f-4c99-b179-4df9f82ad937.md
+      - name: "3.2.3 Entities Involved"
+        href: fa0ae8fc-60f8-4e54-b3aa-a82383865083.md
+      - name: "3.2.4 Preconditions"
+        href: a8d844c9-6981-4254-a602-e9c534cd2a29.md
+      - name: "3.2.5 Details"
+        href: bc1bf952-9362-4d04-a76c-832f974cac3c.md
+    - name: "3.3 Example 3: Set Up and Display New Mail Notifications"
+      href: 3f4b8eaa-798d-45bd-907e-2de45f5dc0b2.md
+      items:
+      - name: "3.3.1 Synopsis"
+        href: d8ad50b2-fbef-4e83-a177-d76a09de5a2f.md
+      - name: "3.3.2 Use Cases"
+        href: 26177eba-456f-4913-a891-fdbee0388876.md
+      - name: "3.3.3 Entities Involved"
+        href: cfdbbc22-7a83-42f1-bdef-7b39460a6812.md
+      - name: "3.3.4 Preconditions"
+        href: 1e455f8a-71b9-4d7e-beff-72336d3b287c.md
+      - name: "3.3.5 Details"
+        href: 9e59307e-d9f6-41a0-a7fd-34f0e806c01c.md
+    - name: "3.4 Example 4: Create an Appointment Request Using Free-Busy Data"
+      href: 72b8aef7-739e-49dd-ac72-9e4c57da72be.md
+      items:
+      - name: "3.4.1 Synopsis"
+        href: 09775272-52e2-4af0-a8e2-63d1d5c01f48.md
+      - name: "3.4.2 Use Cases"
+        href: b90e3c26-e4ac-4baa-90a3-b761d583dc9d.md
+      - name: "3.4.3 Entities Involved"
+        href: 9e4e7057-605c-4c2a-bbee-af49d5efaffa.md
+      - name: "3.4.4 Preconditions"
+        href: 4d2839ff-3f5f-4f2b-af7b-48c7a4117345.md
+      - name: "3.4.5 Details"
+        href: f1c4f723-f823-48db-8a6b-a998c3a2eae9.md
+    - name: "3.5 Example 5: Provision and Synchronize a Mobile Client Device for the First Time"
+      href: bbcc8f0a-9f56-41f1-b887-102a4a6adc09.md
+      items:
+      - name: "3.5.1 Synopsis"
+        href: b54c923a-90ee-46f5-809e-9fdd23f61f3b.md
+      - name: "3.5.2 Use Cases"
+        href: 9f30c9c3-6ada-42e0-9c82-c67624427efd.md
+      - name: "3.5.3 Entities Involved"
+        href: 1578fed7-3f4d-469e-8026-fbd0875b2ea6.md
+      - name: "3.5.4 Preconditions"
+        href: a5ccfb93-bbe9-402a-94ae-fe890a9f07de.md
+      - name: "3.5.5 Details"
+        href: 5f6ed96a-4ee3-416a-8a9d-59d835b86195.md
+  - name: "4 Microsoft Implementations"
+    href: e8ee1000-fa46-4c91-a760-0594740b567b.md
+    items:
+    - name: "4.1 Product Behavior"
+      href: d98d806c-9422-41ec-8b50-00f74cd2a522.md
+  - name: "5 Change Tracking"
+    href: b193e414-77c5-4280-a5c2-cdf663f6b898.md
+  - name: "6 Index"
+    href: 686cc9e3-a34d-4253-9a2a-73624cefc500.md

@@ -14,3 +14,8 @@
       items:
         - name: MS-PST
           href: articles/MS-PST/
+    - name: SQL Docs
+      href: articles/officeindex.md
+      items:
+        - name: MS-SSSO
+          href: articles/MS-SSSO/          

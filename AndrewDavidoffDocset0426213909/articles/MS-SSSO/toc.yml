@@ -1,0 +1,152 @@
+- name: "[MS-SSSO]: SQL Server System Overview"
+  href: 002209fe-adfb-44e1-bfc4-9c9d19761f3a.md
+  items:
+  - name: "1 Introduction"
+    href: 2d6e4b82-d376-40d2-adf7-b9b045dabe18.md
+    items:
+    - name: "1.1 Glossary"
+      href: 20049766-3c6e-4f20-a20e-64785e88f6f2.md
+    - name: "1.2 References"
+      href: 35565eae-9fb1-4b50-aa36-4c19c24be083.md
+  - name: "2 Functional Architecture"
+    href: 4e5c0d58-5405-43a2-b4f1-4c3381ad5dc8.md
+    items:
+    - name: "2.1 Overview"
+      href: a414c6e6-9d5c-4c29-a58d-5713f564d93b.md
+      items:
+      - name: "2.1.1 Network Connectivity and Application Development"
+        href: 5a04be42-3dc8-4041-b79e-f7545aadedaf.md
+      - name: "2.1.2 Master Data Services"
+        href: 17748f36-32b5-438a-b6dc-d97b2440419b.md
+      - name: "2.1.3 Reporting Services"
+        href: b8cd0329-a513-42bc-98fa-16e19836954a.md
+      - name: "2.1.4 Analysis Services"
+        href: e8ec30a5-3c27-478b-9921-74e0d4d7f12b.md
+      - name: "2.1.5 Database Engine"
+        href: cebb1dbf-9d7c-4732-bcbf-62ee147c41da.md
+      - name: "2.1.6 Complex Event Processing Engine"
+        href: 21a43505-90d4-4ac3-9775-704eebd3fbd0.md
+      - name: "2.1.7 Manageability"
+        href: c98c7a75-ed2a-43e8-b491-08ce4141ed33.md
+    - name: "2.2 Protocol Summary"
+      href: c527958f-2ed4-468b-a4c7-e3cee03bdbd5.md
+      items:
+      - name: "2.2.1 Network Connectivity and Application Development"
+        href: 1d27e8bf-7eac-4791-8019-c0d7db18a352.md
+      - name: "2.2.2 Master Data Services"
+        href: 5cb81ee8-f126-4338-9300-89306b244b18.md
+      - name: "2.2.3 Reporting Services"
+        href: 45ba9dcd-a7d7-4e2c-a3ea-1aeaa68132a4.md
+      - name: "2.2.4 Analysis Services"
+        href: 68ace0ef-290e-4bfa-8dbf-f195a68a0484.md
+      - name: "2.2.5 Database Engine"
+        href: 8447f643-a215-4e4d-bf12-32137eb1ee83.md
+      - name: "2.2.6 CEP Engine"
+        href: b5cdc552-0a24-45dd-a1e8-5f33858a00ae.md
+      - name: "2.2.7 Manageability"
+        href: 09141d75-8cd3-43b6-ae49-3f4b5c314cf5.md
+    - name: "2.3 Environment"
+      href: cc0ebd0d-3367-45dc-b566-47a41da421a1.md
+      items:
+      - name: "2.3.1 Dependencies on This System"
+        href: 4b210488-b6db-41ae-bc4e-4f098b4f9e63.md
+      - name: "2.3.2 Dependencies on Other Systems or Components"
+        href: 6a45cecd-0344-4a23-a0e6-ea308be00f67.md
+      - name: "2.3.3 Communications within the System"
+        href: a27324f6-466e-4300-9fc3-42f3d94f9c4d.md
+      - name: "2.3.4 Assumptions and Preconditions"
+        href: 65d8f010-da25-46d8-88c9-6940e10391e8.md
+    - name: "2.4 Use Cases"
+      href: ba541d26-73b8-4017-bef4-756068ae0a4b.md
+      items:
+      - name: "2.4.1 Network Connectivity and Application Development Use Cases"
+        href: d52a6bad-df9f-4590-8cba-3643db8f770b.md
+        items:
+        - name: "2.4.1.1 SQL Server Instance Discovery Use Case"
+          href: e63322c7-1e6f-481d-b09d-d3a47ea3cde1.md
+        - name: "2.4.1.2 Named SQL Server Instance Resolution/Enumeration"
+          href: 0a4ddedb-9121-4908-b721-ad8f0958f728.md
+        - name: "2.4.1.3 Client Connection (TDS, SSTDS, or SSNWS)"
+          href: e1b6e2ab-e4da-4494-b24a-4c155361dd4b.md
+      - name: "2.4.2 MDS Integration Use Cases"
+        href: 5bbaa5cc-6a8e-412c-bafe-d7eaa836f0a5.md
+        items:
+        - name: "2.4.2.1 Use the MDS UI to Query"
+          href: 288c4e61-9e9f-4c5a-84fd-8ce4bdfcb1f6.md
+        - name: "2.4.2.2 Query a List from the MDS Store"
+          href: 7761cb99-214a-41e7-9aa0-c517a3f1566c.md
+      - name: "2.4.3 Reporting Services Use Cases"
+        href: 839cbfbd-2e45-4d69-afda-432a33fbd243.md
+        items:
+        - name: "2.4.3.1 Report Authoring, Management, and Viewing with Native Report Portal"
+          href: 30ee261d-fa18-42a0-bbdb-cbd10aa94b4a.md
+        - name: "2.4.3.2 Mobile Report Authoring, Management, and Viewing with Native Report Portal"
+          href: ce1d2c9d-a5f9-4a1f-bc48-ebe626c24f6c.md
+        - name: "2.4.3.3 Report Authoring, Management, and Viewing with External Report Portal"
+          href: 377075bc-c778-4eea-915b-bbd2a849bb03.md
+      - name: "2.4.4 Analysis Services Use Cases"
+        href: 2bb29b81-c331-4410-bfac-ff7412f0e5cd.md
+        items:
+        - name: "2.4.4.1 Authentication with the Analysis Server"
+          href: 080422ad-8fa2-4de3-ba57-101769c4c383.md
+        - name: "2.4.4.2 Information Discovery"
+          href: 3e37f42a-cb70-4b23-87c6-c72f8b93e7cd.md
+        - name: "2.4.4.3 Sending an MDX Query"
+          href: 72181230-409c-4ece-98e2-b29c258ec1c7.md
+        - name: "2.4.4.4 Sending a DAX Query"
+          href: 3afbcfaa-ba21-474d-8f3c-7131e863c70d.md
+        - name: "2.4.4.5 Usage Reporting"
+          href: bd7df0f2-c5a2-474f-a52e-f0d832ef6e07.md
+      - name: "2.4.5 Database Engine Use Cases"
+        href: 9737679c-171d-4b46-8a28-b802e30fa19e.md
+        items:
+        - name: "2.4.5.1 Authentication with the Database Engine"
+          href: 6eb93f04-d5f0-4848-863e-ca63bb5edb4e.md
+        - name: "2.4.5.2 Information Discovery"
+          href: 674867bb-92bc-4020-9b15-8190c859743f.md
+        - name: "2.4.5.3 Sending a Query"
+          href: 279b33fc-496e-4f7e-82b6-b0b8a6d9bf27.md
+      - name: "2.4.6 CEP Engine Use Case"
+        href: 82f02454-f62c-4927-87f7-4ccbcdfd1d1d.md
+      - name: "2.4.7 Manageability Use Case"
+        href: 3ad416b4-f8df-4498-81ef-58a3c800938f.md
+    - name: "2.5 Versioning, Capability Negotiation, and Extensibility"
+      href: e0bebcfb-2cec-4195-946e-69c3fd6ee2ad.md
+    - name: "2.6 Error Handling"
+      href: 175191c2-a257-4ddc-a1f6-11ebdc72febd.md
+    - name: "2.7 Coherency Requirements"
+      href: 2de2fb37-9387-4c42-b2df-2e9ad104384a.md
+    - name: "2.8 Security"
+      href: 7c933753-22cc-4bb1-a173-4ddff167da2a.md
+  - name: "3 Examples"
+    href: ec5a7e6d-dfa1-4298-b24d-990e2a63a125.md
+    items:
+    - name: "3.1 Configuring and Administering Multiple Servers"
+      href: 4cf4424f-ac9e-47c9-b464-cb6cfd355377.md
+      items:
+      - name: "3.1.1 Analysis Services Authoring and Management"
+        href: cea728f0-8805-4e87-87b1-cf09da05ba94.md
+      - name: "3.1.2 Reporting Services Authoring and Management"
+        href: e07772ba-c3ca-4ad8-b8d9-61aafea12025.md
+      - name: "3.1.3 MDS Management"
+        href: d73e9d2f-26ef-41b4-8c1b-639540f096cc.md
+      - name: "3.1.4 Database Engine Management"
+        href: 18d06118-931a-482f-887f-b29a7386a3db.md
+    - name: "3.2 Obtaining Data"
+      href: a875c245-1bfc-4d46-a48e-c189227fc32f.md
+      items:
+      - name: "3.2.1 Obtaining Data via Analysis Services"
+        href: 14af939c-87f2-426a-bab6-e73e166a9502.md
+      - name: "3.2.2 Obtaining Data via Reporting Services"
+        href: a96fd13e-ce8e-41f2-b472-7b16ce2bd9ec.md
+      - name: "3.2.3 Obtaining Data via MDS"
+        href: ee26f9d8-87bf-467f-ac64-93ad5e2b0418.md
+  - name: "4 Microsoft Implementations"
+    href: ef572ed5-2e0f-4dfa-958c-2c5812422e6e.md
+    items:
+    - name: "4.1 Product Behavior"
+      href: 4efad10f-84a5-4d44-a7ab-6aae3568ca8f.md
+  - name: "5 Change Tracking"
+    href: 95fc5aa6-2ab0-432c-8cac-9f251aab8c59.md
+  - name: "6 Index"
+    href: 97a3c4cb-de20-4d4a-8387-b4554027a1a7.md

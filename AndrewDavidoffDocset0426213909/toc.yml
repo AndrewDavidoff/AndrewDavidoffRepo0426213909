@@ -12,6 +12,8 @@
     - name: Office Docs
       href: articles/officeindex.md
       items:
+        - name: MS-CANARYBLOCK
+          href: articles/MS-CANARYBLOCK/
         - name: MS-PST
           href: articles/MS-PST/
     - name: SQL Docs

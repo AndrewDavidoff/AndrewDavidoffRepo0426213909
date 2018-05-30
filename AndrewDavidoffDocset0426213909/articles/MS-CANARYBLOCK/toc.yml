@@ -1,0 +1,255 @@
+- name: "[MS-CANARYBLOCK]: Canary Block: Quality Assurance Document"
+  href: c8399dc4-4c75-4427-a75e-726b00742997.md
+  items:
+  - name: "1 Introduction"
+    href: 3d526c0c-b374-498e-973c-1794ee41a987.md
+    items:
+    - name: "1.1 Glossary"
+      href: f6104033-4e55-48ec-9da1-1b5b736b4dec.md
+    - name: "1.2 References"
+      href: 63a6a94d-c548-4857-a9a3-aa836c06581b.md
+      items:
+      - name: "1.2.1 Normative References"
+        href: e9cdd947-8647-433a-895a-de020086aada.md
+      - name: "1.2.2 Informative References"
+        href: 124e1272-701f-4310-ac46-c62d4a7fbdc9.md
+    - name: "1.3 Overview"
+      href: 32e18703-2881-4d48-ad7a-36f441823731.md
+    - name: "1.4 Relationship to Other Protocols"
+      href: 48e1c7a5-f657-49fd-9766-bca4a0e11c6c.md
+    - name: "1.5 Prerequisites/Preconditions"
+      href: 9bb08079-a6df-4192-93cf-794ceca3147f.md
+    - name: "1.6 Applicability Statement"
+      href: 9f5436c3-4cce-4b82-909e-7ebcdeeee848.md
+    - name: "1.7 Versioning and Capability Negotiation"
+      href: 8d9c86d3-de18-4860-b92e-fbf2764a59d1.md
+    - name: "1.8 Vendor-Extensible Fields"
+      href: 50d1f7f8-a53c-4696-bfd5-ed99a82d6529.md
+    - name: "1.9 Standards Assignments"
+      href: 93358274-49a1-40d6-aad5-5646260ffe65.md
+  - name: "2 Messages"
+    href: 80c3ded6-b7f7-4eec-bdc4-337956653fdc.md
+    items:
+    - name: "2.1 Transport"
+      href: bc26357f-e904-4d7c-8b02-5a28e4ed3104.md
+    - name: "2.2 Message Syntax"
+      href: 0074dcc9-9a8c-4a3c-b207-63dea47d5b54.md
+      items:
+      - name: "2.2.1 Namespaces"
+        href: 8e09bb02-13e9-4f1b-a588-3f5318943e26.md
+    - name: "2.3 Directory Service Schema Elements"
+      href: 7a991b19-1298-4e76-9c18-c2a64d29a10b.md
+  - name: "3 Protocol Details"
+    href: 3d701464-24d3-4641-b890-ccbdeeecc2a2.md
+    items:
+    - name: "3.1 Test Details"
+      href: 6d2213af-a8a1-4de6-a0b0-51bc6a0e8b88.md
+      items:
+      - name: "3.1.1 Abstract Data Model"
+        href: ed2f7017-bb03-41f0-affc-76bae487a18e.md
+      - name: "3.1.2 Timers"
+        href: 40620b38-4bd3-4987-845d-f71f7f50db38.md
+      - name: "3.1.3 Initialization"
+        href: f687bc40-6b6c-4970-a1aa-5bc281ecbd78.md
+      - name: "3.1.4 Higher-Layer Triggered Events"
+        href: 8aa70d59-19eb-4e02-b417-893069b80ce8.md
+      - name: "3.1.5 Message Processing Events and Sequencing Rules"
+        href: fab3c2a6-3e65-42d1-84ae-e4c2c7abdd4e.md
+      - name: "3.1.6 Timer Events"
+        href: 271e362c-d006-44d3-a904-0290389798a0.md
+      - name: "3.1.7 Other Local Events"
+        href: 4c73ff62-8256-4cca-9418-4c835757897b.md
+      - name: "3.1.8 Subsection from ODOC"
+        href: 5d479c1f-d384-4d92-946e-66f9feac93ad.md
+      - name: "3.1.9 Another subsection from the odoc"
+        href: 0bcd5027-79f3-4786-8841-90985e39fb85.md
+  - name: "4 Protocol Examples"
+    href: 698cbda3-2f2d-4870-9a5a-a124fd9394ad.md
+    items:
+    - name: "4.1 Samples Section"
+      href: 10d18e0b-8931-43ef-9ca2-877096442270.md
+      items:
+      - name: "4.1.1 Updated Title for Section"
+        href: 0e7eccf3-4d87-4e49-b278-e825060c98ec.md
+      - name: "4.1.2 Footnotes Testing"
+        href: 7274ee07-a140-4707-b849-708ab4fd6829.md
+      - name: "4.1.3 Test for BuildIntegration"
+        href: 087d22a9-e79a-4889-8a23-f778c049e563.md
+      - name: "4.1.4 Test copy paste Visio object"
+        href: 43b4e33f-b12a-40cc-b23b-0bff98a34eb8.md
+      - name: "4.1.5 List Tests"
+        href: 2d8a7e1a-4ef9-48bf-972a-3a4454b25714.md
+      - name: "4.1.6 TESTING"
+        href: e29f25a2-9a26-47f5-8144-23f06bb52ceb.md
+        items:
+        - name: "4.1.6.1 testing section attribute order"
+          href: 5672f907-6494-4933-90a4-cec8393b195a.md
+      - name: "4.1.7 Table Example"
+        href: 3c50ed54-af3e-4801-a0bc-4b493840a07a.md
+      - name: "4.1.8 Test Bookmark Links"
+        href: 38fd41d0-8d16-4f8d-b7cf-e3572575f180.md
+      - name: "4.1.9 Horizontally Merged Cells"
+        href: 608b031a-3a07-4032-856d-8899ce760bf2.md
+      - name: "4.1.10 test add"
+        href: e1f61c81-0262-4ccb-8e69-6a0844c4a5f3.md
+        items:
+        - name: "4.1.10.1 child"
+          href: a1034f08-feaf-49e6-908f-76efc85f087d.md
+        - name: "4.1.10.2 2nd child"
+          href: 6c2544f4-85e9-4941-9c1e-c3cb32fa3a24.md
+      - name: "4.1.11 Long Table Sample"
+        href: cc8084c9-6950-4043-82d4-297555a0a6d6.md
+      - name: "4.1.12 OI29500 Reference Testing"
+        href: 75105434-c8e7-4cc0-9b40-5f3f6c2de5c3.md
+      - name: "4.1.13 Glossary and Reference Examples"
+        href: 90b15c7d-82b2-4970-8efa-bbb82b9856c9.md
+      - name: "4.1.14 BitTable Example"
+        href: d725c9b7-ae94-4361-ace2-c5becec73641.md
+      - name: "4.1.15 Foot Notes Tests"
+        href: 53e35786-a9c1-4b4a-aa6d-15b3c75ee1b9.md
+      - name: "4.1.16 Image Example"
+        href: 24ed1371-1f2f-4ef1-a2be-e2111d711f7f.md
+        items:
+        - name: "4.1.16.1 Linking Examples"
+          href: 5e5d1730-efe4-4d42-b064-ebea5081cc67.md
+      - name: "4.1.17 Content Control Tests"
+        href: 6e9008b7-49f9-4d63-b805-3b980e3bbea7.md
+    - name: "4.2 Section"
+      href: 612bea08-73a3-4e1b-919c-1277e63bc5ea.md
+      items:
+      - name: "4.2.1 Duplicate Section Title [Disambiguator]"
+        href: 052095ad-9335-42b2-8425-f0ffcf85986a.md
+      - name: "4.2.2 Duplicate Section Title"
+        href: a216dd15-2641-4bcb-9f22-a9d5b67a8970.md
+      - name: "4.2.3 this's <new> "child section" & I think it works."
+        href: 3ea44a2c-89a6-4690-968f-45bb469d82ab.md
+    - name: "4.3 Hidden Text"
+      href: 586b394f-2ee2-43a5-ad2b-ddaf4d9bc5d0.md
+    - name: "4.4 Missing Text"
+      href: 8d5f6e39-5d17-4c13-98a8-4599cdac1aa3.md
+      items:
+      - name: "4.4.1 Office 14 516249"
+        href: 9e072d7b-0c40-4a75-bd9f-37c12bb766a8.md
+      - name: "4.4.2 Office 14 516207"
+        href: 0d9fa658-7dc5-422c-80e3-d3c0e289a322.md
+      - name: "4.4.3 Office 14 516091"
+        href: ea1f2cc5-0aea-4d02-99b9-715bcad6e39a.md
+      - name: "4.4.4 Office 14 515794"
+        href: 7cd52714-6d39-46de-a238-0cd7e6676f5c.md
+      - name: "4.4.5 Office 14 515397"
+        href: c16a0dbc-8bf1-47ff-98a6-c389ec125af5.md
+      - name: "4.4.6 Office 14 515416"
+        href: 5f82c7d1-045b-4e5c-9b01-453c78814fb5.md
+      - name: "4.4.7 Office 14 515523"
+        href: d8d1563a-277f-44dc-9c0c-01a7331ca797.md
+      - name: "4.4.8 Office 14 515549"
+        href: 7c1d88ee-2dc2-422f-a652-514cef09d510.md
+      - name: "4.4.9 Office 14 515667"
+        href: cc2b5979-af28-4280-9136-38b3073c0ea7.md
+      - name: "4.4.10 Office 14 - 523019"
+        href: 1f07383b-1a6f-4750-ad06-87689ce74ed2.md
+      - name: "4.4.11 Office 14 - 523216"
+        href: e3f72cb7-5cc6-4813-aceb-0662f2f8ee98.md
+      - name: "4.4.12 Office 14 - 523225"
+        href: d64cc016-f89e-4f29-ae95-fb481e4af930.md
+      - name: "4.4.13 Comments"
+        href: f892aff7-0127-402c-aee6-e740fd43bf76.md
+      - name: "4.4.14 Comments2"
+        href: 2eac4362-bf59-414a-89ea-f3f89a618a32.md
+      - name: "4.4.15 Comments3"
+        href: d28463aa-88ff-4ca1-8ce4-082a207bd16b.md
+      - name: "4.4.16 Custom Section"
+        href: a35f4776-b740-4a5d-b3f9-3309c95628b8.md
+      - name: "4.4.17 Office14-758897"
+        href: 8c0c438b-253c-42e1-a59f-01dd4a1a3bfc.md
+      - name: "4.4.18 Content Duplicated"
+        href: f780e6f1-374a-4e81-bd56-2097dfa63bf8.md
+      - name: "4.4.19 Content lost Caption"
+        href: 49f6dc48-1c91-4908-8fb2-2606d19b055a.md
+      - name: "4.4.20 Extra colon"
+        href: cae33ab8-9824-483c-9442-f406d9d500aa.md
+    - name: "4.5 Training Section"
+      href: 57bcc526-7d37-4e9a-9964-283f5f10b3e1.md
+    - name: "4.6 Adding new section for refresh testing"
+      href: 93d4c580-9a34-4167-bfcc-3b60a4936d73.md
+    - name: "4.7 Message Processing Events and Sequencing Rules"
+      href: a826369e-4c68-4509-8ab7-e888f99755e1.md
+    - name: "4.8 Test Section"
+      href: c6c09dd3-69e5-46d0-be62-210f848940b3.md
+      items:
+      - name: "4.8.1 This one is for Other Jeremy"
+        href: 1d22564a-cd09-4993-8d63-17b1bad2261c.md
+      - name: "4.8.2 Research for Bug 302973"
+        href: 485802b0-464c-45d8-a7f2-431076832642.md
+      - name: "4.8.3 test"
+        href: 75482db9-b001-4049-8e67-5843a9421578.md
+      - name: "4.8.4 test REF"
+        href: ee321925-8f8f-4de3-adc9-15f39e4d3caf.md
+      - name: "4.8.5 Here is a section from Dawing"
+        href: 1a75273e-ccfe-4c3a-a8ed-2fb26321e6ab.md
+        items:
+        - name: "4.8.5.1 something other"
+          href: 2ea775df-c079-4279-af3f-1bcac9481010.md
+      - name: "4.8.6 Tables"
+        href: 4230f617-1e70-4e15-bec9-3276091a139d.md
+      - name: "4.8.7 New section"
+        href: 4ca75a5a-e1ad-4220-98cd-6ef7bbf6632c.md
+      - name: "4.8.8 Section with Preliminary flag"
+        href: a19cef3c-0994-4fad-b514-b6bbf79aa790.md
+      - name: "4.8.9 special styles"
+        href: 96b8a06d-e47a-42cf-86b1-b0b2a3769862.md
+      - name: "4.8.10 Test Rename"
+        href: ac376ecc-9201-4700-8e5d-dd8e09c62067.md
+      - name: "4.8.11 Resources"
+        href: 43c6b369-a3d0-4482-9c5d-c01b2b2164e6.md
+      - name: "4.8.12 Large Table"
+        href: 719a8de3-acff-40ce-beaf-3805487664a4.md
+      - name: "4.8.13 Complex Table"
+        href: e343c099-35b8-4de8-b13a-8071102e86bd.md
+      - name: "4.8.14 Deeply Nested Topic"
+        href: d56cbe53-cb85-4e90-a79a-a2e6e18c499c.md
+        items:
+        - name: "4.8.14.1 4th Nested Level"
+          href: 51cb60bf-5b40-43c0-ae80-b97e2bad9529.md
+          items:
+          - name: "4.8.14.1.1 5th Nested Level"
+            href: d0938961-20db-44bb-9363-95d42ebdfe8b.md
+            items:
+            - name: "4.8.14.1.1.1 6th Nested Level"
+              href: 7921ee24-537c-4a88-bef0-1d1129ed698b.md
+              items:
+              - name: "4.8.14.1.1.1.1 7th Nested Level"
+                href: 17661dcf-4be0-4ff8-9e6f-a92f88f10d0b.md
+                items:
+                - name: "4.8.14.1.1.1.1.1 8th Nested Level"
+                  href: 714478ba-ba8b-41dc-ab1e-411177e3fa54.md
+                  items:
+                  - name: "4.8.14.1.1.1.1.1.1 9th Nested Level"
+                    href: 2fe8301e-9b12-434a-b08c-3214cd8447b3.md
+      - name: "4.8.15 Complex Linking"
+        href: 194cb484-019f-4a6e-bd17-b5c4f4c13c33.md
+      - name: "4.8.16 Complex Image"
+        href: 1e25512d-724c-44ea-bb09-b47b312cf169.md
+      - name: "4.8.17 Complex Hierarchical List"
+        href: fb45fa89-234b-4630-942a-a460f9aef1ea.md
+      - name: "4.8.18 Combined Numbered/Bulleted List"
+        href: b3676d16-4a83-40f0-8718-a486dccddf60.md
+      - name: "4.8.19 Superscript"
+        href: 39ac051f-1208-4dc1-960e-c429d19255ad.md
+      - name: "4.8.20 Subscript"
+        href: 35bd7a7f-231d-4543-8f58-93a8eb326840.md
+      - name: "4.8.21 Collapsible Section"
+        href: 9afe8e70-5be3-4b7e-842b-3a7e7386c28c.md
+  - name: "5 Security"
+    href: fe2c1c8f-ffea-44ce-9474-402ba103b0c6.md
+    items:
+    - name: "5.1 Security Considerations for Implementers"
+      href: ae8f3b7c-83d1-46c1-a010-d467ecc5ec2c.md
+    - name: "5.2 Index of Security Parameters"
+      href: 023933c2-c4ee-41bd-9c75-7e5a31f4295d.md
+  - name: "6 Appendix A: Product Behavior"
+    href: f810325e-121a-4d2c-82da-e3f3c10a501b.md
+  - name: "7 Change Tracking"
+    href: adb637b5-e9c5-4e87-8efd-8a4a27fd1ec9.md
+  - name: "8 Index"
+    href: 33dc1b04-8e43-44e8-82a0-7fcb34dd91ef.md

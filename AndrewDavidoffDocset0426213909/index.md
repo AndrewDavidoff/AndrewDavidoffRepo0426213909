@@ -6,8 +6,10 @@ This is acomplished by building document's docset file structure compatible with
 
 ## Current limitations
 * Document layout is not finalized (work in progress)
-* Table formatting (expected to be fixed with custom CSS)
-* Generated links go to .htm instead of .html (expected to be fixed with implementation of HTML parsing code)
 * Extra HTML tags at the bottom of all pages (expected to be fixed with implementation of HTML parsing code)
+* Table formatting (expected to be fixed with custom CSS)
+* Generated links go to .htm instead of .md (expected to be fixed with implementation of HTML parsing code)
+* Links in general need to be investigated and fixed
+* Links to endnotes need to be investigated for a possible fix
 * Code boxes don't wrap (expected to be fixed with custom CSS)
 

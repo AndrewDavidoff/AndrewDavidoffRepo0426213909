@@ -1,0 +1,32 @@
+<html dir="LTR" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tool="http://www.microsoft.com/tooltip">
+ <body>
+ <div id="header">
+ <h1 class="heading">3.3.4.70.2.1 GetCurrentDatabaseConfiguration</h1>
+ </div>
+ <div id="mainSection">
+ <div id="mainBody">
+ <div id="allHistory" class="saveHistory"></div>
+ <div id="sectionSection0" class="section" name="collapseableSection">
+ 
+
+<p>The GetCurrentDatabaseConfiguration element contains the
+input data for the GetCurrentDatabaseConfiguration operation.</p>
+
+<dl>
+<dd>
+<div><pre> &lt;xs:element name=&quot;GetCurrentDatabaseConfiguration&quot;&gt;
+   &lt;xs:complexType&gt;
+     &lt;xs:sequence /&gt;
+   &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+</pre></div>
+</dd></dl>
+
+<p>This element is empty.</p>
+
+
+ </div>
+ </div>
+ </div>
+ </body>
+</html>

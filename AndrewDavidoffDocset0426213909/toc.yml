@@ -20,4 +20,9 @@
       href: articles/officeindex.md
       items:
         - name: MS-SSSO
-          href: articles/MS-SSSO/          
+          href: articles/MS-SSSO/
+    - name: Windows Docs
+      href: articles/windowsindex.md
+      items:
+        - name: MS-IPAMM2
+          href: articles/MS-IPAMM2/                    

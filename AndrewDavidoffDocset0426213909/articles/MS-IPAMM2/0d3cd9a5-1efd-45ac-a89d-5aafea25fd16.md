@@ -1,0 +1,33 @@
+<html dir="LTR" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tool="http://www.microsoft.com/tooltip">
+ <body>
+ <div id="header">
+ <h1 class="heading">2.2.4.170 DhcpUserClassV6</h1>
+ </div>
+ <div id="mainSection">
+ <div id="mainBody">
+ <div id="allHistory" class="saveHistory"></div>
+ <div id="sectionSection0" class="section" name="collapseableSection">
+ 
+
+<p>The DhcpUserClassV6 complex type allows the extension of the
+DhcpUserClass complex type. This specifies the DhcpUserClass instance
+associated with the IPv6-specific DhcpServer instance.</p>
+
+<dl>
+<dd>
+<div><pre> &lt;xs:complexType name=&quot;DhcpUserClassV6&quot;&gt;
+   &lt;xs:complexContent mixed=&quot;false&quot;&gt;
+     &lt;xs:extension base=&quot;ipam:DhcpUserClass&quot;&gt;
+       &lt;xs:sequence /&gt;
+     &lt;/xs:extension&gt;
+   &lt;/xs:complexContent&gt;
+ &lt;/xs:complexType&gt;
+</pre></div>
+</dd></dl>
+
+
+ </div>
+ </div>
+ </div>
+ </body>
+</html>

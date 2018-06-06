@@ -1,0 +1,32 @@
+<html dir="LTR" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tool="http://www.microsoft.com/tooltip">
+ <body>
+ <div id="header">
+ <h1 class="heading">3.3.4.97.2.2 GetRangeUtilizationResponse</h1>
+ </div>
+ <div id="mainSection">
+ <div id="mainBody">
+ <div id="allHistory" class="saveHistory"></div>
+ <div id="sectionSection0" class="section" name="collapseableSection">
+ 
+
+<p>This element specifies the output values for the
+GetRangeUtilization operation.</p>
+
+<dl>
+<dd>
+<div><pre> &lt;xs:element name=&quot;GetRangeUtilizationResponse&quot;&gt;
+   &lt;xs:complexType&gt;
+     &lt;xs:sequence&gt;
+       &lt;xs:element minOccurs=&quot;0&quot; name=&quot;GetRangeUtilizationResult&quot; nillable=&quot;true&quot; type=&quot;ipam:IPCumulativeUtilization&quot; /&gt;
+     &lt;/xs:sequence&gt;
+   &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+</pre></div>
+</dd></dl>
+
+
+ </div>
+ </div>
+ </div>
+ </body>
+</html>

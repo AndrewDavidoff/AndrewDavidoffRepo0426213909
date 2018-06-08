@@ -16,6 +16,8 @@
           href: articles/MS-CANARYBLOCK/
         - name: MS-PST
           href: articles/MS-PST/
+        - name: MS-OFFSTANDLP
+          href: articles/MS-OFFSTANDLP/
     - name: SQL Docs
       href: articles/officeindex.md
       items:

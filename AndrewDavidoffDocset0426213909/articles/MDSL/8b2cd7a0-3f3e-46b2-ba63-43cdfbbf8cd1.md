@@ -1,0 +1,135 @@
+<html dir="LTR" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tool="http://www.microsoft.com/tooltip"><body><input type="hidden" id="userDataCache" class="userDataStyle"><input type="hidden" id="hiddenScrollOffset"><img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif"><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif"><img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif"><img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif"><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif"><img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif"><img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif"><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif"><div id="header"><h1 class="heading">5.308 Thumb</h1></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()"></div>
+
+
+
+
+<p xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+<div id="sectionSection0" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+				</content></div><div id="sectionSection1" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+					<p xmlns="">
+						<mshelp:link keywords="5dceec56-9398-49cb-90cc-d80016b3639b" tabindex="0">x:Object</mshelp:link> &gt; <mshelp:link keywords="58b378ed-1ba9-42b4-ae73-0e1d51ff7359" tabindex="0">DependencyObject</mshelp:link> &gt; <mshelp:link keywords="c984e9a4-f094-46fd-8bfd-d99d4146d4c4" tabindex="0">UIElement</mshelp:link> &gt; <mshelp:link keywords="4e383109-d2fb-45be-aaf2-abe6f68ba1d1" tabindex="0">FrameworkElement</mshelp:link> &gt; <mshelp:link keywords="6861048f-3afe-4169-8fbd-343a50edb4ce" tabindex="0">Control</mshelp:link> &gt; Thumb</p>
+					<p xmlns=""><b></b></p><table class="ProtocolAuthoredTable" xmlns=""><tr>
+								<td>
+									<p>
+										<b>(usage)</b>
+									</p>
+								</td>
+								<td>
+									<p>
+										<b>&lt;Thumb /&gt;</b>
+									</p>
+								</td>
+							</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>Represents a control that can be dragged by the user.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[name property]</b>
+								</p>
+							</td>
+							<td>
+								<p>Name</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[xml lang property]</b>
+								</p>
+							</td>
+							<td>
+								<p>Language</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(properties)</b>
+								</p>
+							</td>
+							<td>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>IsDragging</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="a32ecf6a-2274-48bd-8be9-98eb0401690a" tabindex="0">x:Boolean</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>Whether the Thumb control has focus and mouse capture.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>IsFocused</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="a32ecf6a-2274-48bd-8be9-98eb0401690a" tabindex="0">x:Boolean</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>Whether the thumb has focus.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(events)</b>
+								</p>
+							</td>
+							<td>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>DragCompleted</b>
+								</p>
+							</td>
+							<td>
+								<p>Occurs when the Thumb control loses mouse capture.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>DragDelta</b>
+								</p>
+							</td>
+							<td>
+								<p>Occurs one or more times as the mouse pointer is moved when a Thumb control has logical focus and mouse capture.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>DragStarted</b>
+								</p>
+							</td>
+							<td>
+								<p>Occurs when a Thumb control receives logical focus and mouse capture.</p>
+							</td>
+						</tr></table>
+				</content></div><!--[if gte IE 5]>
+			<tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div><a name="feedback"></a><span></span></div></body></html>

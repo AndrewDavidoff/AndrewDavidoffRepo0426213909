@@ -1,0 +1,102 @@
+<html dir="LTR" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tool="http://www.microsoft.com/tooltip"><body><input type="hidden" id="userDataCache" class="userDataStyle"><input type="hidden" id="hiddenScrollOffset"><img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif"><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif"><img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif"><img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif"><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif"><img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif"><img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif"><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif"><div id="header"><h1 class="heading">4.772 SelectiveScrollingGrid</h1></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()"></div>
+
+
+
+
+<p xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+<div id="sectionSection0" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+				</content></div><div id="sectionSection1" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+					<p xmlns="">
+						<mshelp:link keywords="32151b2e-6b09-45cd-afba-003da191b81a" tabindex="0">x:Object</mshelp:link> &gt; <mshelp:link keywords="35952578-1b00-44af-ab0a-4726a2e04bd8" tabindex="0">DependencyObject</mshelp:link> &gt; <mshelp:link keywords="cfab53b4-a0b5-4b61-8960-a7a2d2cc3eb2" tabindex="0">Visual</mshelp:link> &gt; <mshelp:link keywords="837f4ff4-6039-4429-8f17-f04a514988ad" tabindex="0">UIElement</mshelp:link> &gt; <mshelp:link keywords="a2610c01-256b-4d8b-8c2a-c087e322f1bd" tabindex="0">FrameworkElement</mshelp:link> &gt; <mshelp:link keywords="4efc3452-8492-4eb9-a70b-43317fe5a729" tabindex="0">Panel</mshelp:link> &gt; <mshelp:link keywords="d15e5eeb-b0f5-4839-951b-51a834b8ae59" tabindex="0">Grid</mshelp:link> &gt; SelectiveScrollingGrid, <mshelp:link keywords="b848a29c-a29a-467f-9f8b-ea1cdf410d12" tabindex="0">IInputElement</mshelp:link></p>
+					<p xmlns=""><b></b></p><table class="ProtocolAuthoredTable" xmlns=""><tr>
+								<td>
+									<p>
+										<b>(usage)</b>
+									</p>
+								</td>
+								<td>
+									<p>
+										<b>&lt;SelectiveScrollingGrid&gt;</b>
+										<mshelp:link keywords="837f4ff4-6039-4429-8f17-f04a514988ad" tabindex="0">UIElement</mshelp:link>
+										<b>*&lt;/SelectiveScrollingGrid&gt;</b>
+									</p>
+								</td>
+							</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>A panel that can hold specified cells in place when the view is scrolled.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[content property]</b>
+								</p>
+							</td>
+							<td>
+								<p>Children</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[name property]</b>
+								</p>
+							</td>
+							<td>
+								<p>Name</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[xml lang property]</b>
+								</p>
+							</td>
+							<td>
+								<p>Language</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(attachable properties)</b>
+								</p>
+							</td>
+							<td>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>SelectiveScrollingGrid.SelectiveScrollingOrientation</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="91075b80-18b9-4caf-b347-58f26131a83d" tabindex="0">SelectiveScrollingOrientation</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>The direction that cells can scroll.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[target type]</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="35952578-1b00-44af-ab0a-4726a2e04bd8" tabindex="0">DependencyObject</mshelp:link>
+								</p>
+							</td>
+						</tr></table>
+				</content></div><!--[if gte IE 5]>
+			<tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div><a name="feedback"></a><span></span></div></body></html>

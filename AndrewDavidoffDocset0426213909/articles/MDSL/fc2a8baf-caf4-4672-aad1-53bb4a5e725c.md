@@ -1,0 +1,101 @@
+<html dir="LTR" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tool="http://www.microsoft.com/tooltip"><body><input type="hidden" id="userDataCache" class="userDataStyle"><input type="hidden" id="hiddenScrollOffset"><img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif"><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif"><img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif"><img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif"><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif"><img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif"><img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif"><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif"><div id="header"><h1 class="heading">6.172 RequestCachePolicySyntax</h1></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()"></div>
+
+
+
+
+<p xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+<div id="sectionSection0" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+				</content></div><div id="sectionSection1" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+					<p xmlns=""><b></b></p><table class="ProtocolAuthoredTable" xmlns=""><tr>
+								<td>
+									<p>
+										<b>[values]</b>
+									</p>
+								</td>
+								<td>
+								</td>
+							</tr><tr>
+							<td>
+								<p>
+									<b>BypassCache</b>
+								</p>
+							</td>
+							<td>
+								<p>Satisfies a request by using the server. No entries are taken from caches, added to caches, or removed from caches between the client and server. No entries are taken from caches, added to caches, or removed from caches between the client and server. This is the default cache behavior specified in the machine configuration file that ships with the.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>CacheIfAvailable</b>
+								</p>
+							</td>
+							<td>
+								<p>Satisfies a request for a resource from the cache if the resource is available; otherwise, sends a request for a resource to the server. If the requested item is available in any cache between the client and the server, the request might be satisfied by the intermediate cache.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>CacheOnly</b>
+								</p>
+							</td>
+							<td>
+								<p>Satisfies a request using the locally cached resource; does not send a request for an item that is not in the cache. When this cache policy level is specified, a WebException exception is thrown if the item is not in the client cache.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>CacheOrNextCacheOnly</b>
+								</p>
+							</td>
+							<td>
+								<p>Satisfies a request for a resource either from the local computer's cache or a remote cache on the local area network. If the request cannot be satisfied, a WebException exception is thrown. In the HTTP caching protocol, this is achieved using the only-if-cached cache control directive.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Default</b>
+								</p>
+							</td>
+							<td>
+								<p>Satisfies a request for a resource either by using the cached copy of the resource or by sending a request for the resource to the server. The action taken is determined by the current cache policy and the age of the content in the cache. This is the cache level that should be used by most applications.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>NoCacheNoStore</b>
+								</p>
+							</td>
+							<td>
+								<p>Never satisfies a request by using resources from the cache and does not cache resources. If the resource is present in the local cache, it is removed. This policy level indicates to intermediate caches that they should remove the resource. In the HTTP caching protocol, this is achieved using the no-cache cache control directive.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Refresh</b>
+								</p>
+							</td>
+							<td>
+								<p>Satisfies a request by using the server or a cache other than the local cache. Before the request can be satisfied by an intermediate cache, that cache must revalidate its cached entry with the server. In the HTTP caching protocol, this is achieved using the max-age = 0 cache control directive and the no-cache Pragma header.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Reload</b>
+								</p>
+							</td>
+							<td>
+								<p>Satisfies a request by using the server. The response might be saved in the cache. In the HTTP caching protocol, this is achieved using the no-cache cache control directive and the no-cache Pragma header.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Revalidate</b>
+								</p>
+							</td>
+							<td>
+								<p>Compares the copy of the resource in the cache with the copy on the server. If the copy on the server is newer, it is used to satisfy the request and replaces the copy in the cache. If the copy in the cache is the same as the server copy, the cached copy is used. In the HTTP caching protocol, this is achieved using a conditional request.</p>
+							</td>
+						</tr></table>
+				</content></div><!--[if gte IE 5]>
+			<tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div><a name="feedback"></a><span></span></div></body></html>

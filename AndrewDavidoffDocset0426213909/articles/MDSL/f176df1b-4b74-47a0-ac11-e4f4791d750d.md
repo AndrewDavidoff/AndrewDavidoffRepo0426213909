@@ -1,0 +1,53 @@
+<html dir="LTR" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tool="http://www.microsoft.com/tooltip"><body><input type="hidden" id="userDataCache" class="userDataStyle"><input type="hidden" id="hiddenScrollOffset"><img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif"><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif"><img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif"><img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif"><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif"><img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif"><img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif"><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif"><div id="header"><h1 class="heading">8.6.8 Member Lookup</h1></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()"></div>
+
+
+
+
+<p xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+<div id="sectionSection0" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+				</content></div><div id="sectionSection1" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+					<p xmlns="">This rule has the following inputs:</p>
+					<p xmlns=""><b></b></p><table class="ProtocolAuthoredTable" xmlns=""><tr>
+								<td id="ShadedCell">
+									<p>Name</p>
+								</td>
+								<td id="ShadedCell">
+									<p>Type</p>
+								</td>
+								<td id="ShadedCell">
+									<p>Purpose (non-normative)</p>
+								</td>
+							</tr><tr>
+							<td>
+								<p>
+									<i>definingType</i>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="2c66ed32-eead-44a7-847d-baabda0d2856" tabindex="0">XamlType Information Item</mshelp:link>
+								</p>
+							</td>
+							<td>
+								<p>The type on which to look up the member.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<i>memberName</i>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="a4a99de5-391b-4cd7-84b4-13d95330c5b0" tabindex="0">Text String</mshelp:link>
+								</p>
+							</td>
+							<td>
+								<p>The name of the member to find</p>
+							</td>
+						</tr></table>
+					<p xmlns="">The rule's output is a <mshelp:link keywords="5fe76f94-9868-41b2-a117-c1a62071e64d" tabindex="0">XamlMember Information Item</mshelp:link>.</p>
+					<p xmlns="">If <i>definingType</i>[members] contains a member prop where prop[name] matches <i>memberName</i>, this rule MUST return prop. Otherwise, this rule MUST return Null.</p>
+				</content></div><!--[if gte IE 5]>
+			<tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div><a name="feedback"></a><span></span></div></body></html>

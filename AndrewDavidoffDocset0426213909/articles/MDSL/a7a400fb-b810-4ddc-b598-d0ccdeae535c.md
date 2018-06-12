@@ -1,0 +1,248 @@
+<html dir="LTR" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tool="http://www.microsoft.com/tooltip"><body><input type="hidden" id="userDataCache" class="userDataStyle"><input type="hidden" id="hiddenScrollOffset"><img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif"><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif"><img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif"><img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif"><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif"><img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif"><img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif"><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif"><div id="header"><h1 class="heading">4.669 Rect3D</h1></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()"></div>
+
+
+
+
+<p xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+<div id="sectionSection0" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+				</content></div><div id="sectionSection1" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+					<p xmlns="">
+						<mshelp:link keywords="32151b2e-6b09-45cd-afba-003da191b81a" tabindex="0">x:Object</mshelp:link> &gt; Rect3D</p>
+					<p xmlns=""><b></b></p><table class="ProtocolAuthoredTable" xmlns=""><tr>
+								<td>
+									<p>
+										<b>(usage)</b>
+									</p>
+								</td>
+								<td>
+									<p>
+										<b>&lt;Rect3D&gt; string &lt;/Rect3D&gt;</b>
+									</p>
+								</td>
+							</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>Represents a 3-D rectangle: for example, a cube.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is nullable]</b>
+								</p>
+							</td>
+							<td>
+								<p>false</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[text syntax]</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="001a72d8-a52c-42ac-be3a-7453029fe677" tabindex="0">Rect3DSyntax</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(properties)</b>
+								</p>
+							</td>
+							<td>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Location</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="b19dd8b2-a3b7-4bc8-9eda-d946731dde7c" tabindex="0">Point3D</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>A Point3D that represents the origin of the Rect3D.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Size</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="76709708-2f9f-49e7-9ca3-58b1e8aaf3bf" tabindex="0">Size3D</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>The area of the Rect3D.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>SizeX</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="eba4f871-299c-4b4a-8477-fbb89ef1665c" tabindex="0">x:Double</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>The size of the Rect3D in the X dimension.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>SizeY</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="eba4f871-299c-4b4a-8477-fbb89ef1665c" tabindex="0">x:Double</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>The size of the Rect3D in the Y dimension.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>SizeZ</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="eba4f871-299c-4b4a-8477-fbb89ef1665c" tabindex="0">x:Double</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>The size of the Rect3D in the Z dimension.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>X</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="eba4f871-299c-4b4a-8477-fbb89ef1665c" tabindex="0">x:Double</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>The value of the X coordinate of the Rect3D.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Y</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="eba4f871-299c-4b4a-8477-fbb89ef1665c" tabindex="0">x:Double</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>The value of the Y coordinate of the Rect3D.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Z</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="eba4f871-299c-4b4a-8477-fbb89ef1665c" tabindex="0">x:Double</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>The value of the Z coordinate of the Rect3D.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(static properties)</b>
+								</p>
+							</td>
+							<td>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Empty</b>
+								</p>
+							</td>
+							<td>
+								<p>Rect3D</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>An empty Rect3D.</p>
+							</td>
+						</tr></table>
+				</content></div><!--[if gte IE 5]>
+			<tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div><a name="feedback"></a><span></span></div></body></html>

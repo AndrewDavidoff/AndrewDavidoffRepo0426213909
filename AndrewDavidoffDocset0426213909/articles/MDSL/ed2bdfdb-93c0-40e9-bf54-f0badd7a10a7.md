@@ -1,0 +1,93 @@
+<html dir="LTR" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tool="http://www.microsoft.com/tooltip"><body><input type="hidden" id="userDataCache" class="userDataStyle"><input type="hidden" id="hiddenScrollOffset"><img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif"><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif"><img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif"><img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif"><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif"><img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif"><img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif"><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif"><div id="header"><h1 class="heading">4.86 CharKeyFrameCollection</h1></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()"></div>
+
+
+
+
+<p xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+<div id="sectionSection0" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+				</content></div><div id="sectionSection1" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+					<p xmlns="">
+						<mshelp:link keywords="7badce03-ceb8-4865-86e1-32354d3d3a43" tabindex="0">x:Object</mshelp:link> &gt; <mshelp:link keywords="1ace14c9-325e-437c-b16d-27614f062f42" tabindex="0">DependencyObject</mshelp:link> &gt; <mshelp:link keywords="d367880c-b6fe-490d-8ad8-2c239df18064" tabindex="0">Freezable</mshelp:link> &gt; CharKeyFrameCollection</p>
+					<p xmlns=""><b></b></p><table class="ProtocolAuthoredTable" xmlns=""><tr>
+								<td>
+									<p>
+										<b>(usage)</b>
+									</p>
+								</td>
+								<td>
+									<p>
+										<b>&lt;CharKeyFrameCollection&gt;</b>
+										<mshelp:link keywords="38e6c54e-11dc-417d-b03a-178dd385bf95" tabindex="0">CharKeyFrame</mshelp:link>
+										<b>*&lt;/CharKeyFrameCollection&gt;</b>
+									</p>
+								</td>
+							</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>Represents a collection of CharKeyFrame objects.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(used by)</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="df9d5927-0abb-4b39-9a2e-ed960c2d34ff" tabindex="0">CharAnimationUsingKeyFrames</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is list]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[allowed types]</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="38e6c54e-11dc-417d-b03a-178dd385bf95" tabindex="0">CharKeyFrame</mshelp:link>
+								</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(static properties)</b>
+								</p>
+							</td>
+							<td>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Empty</b>
+								</p>
+							</td>
+							<td>
+								<p>CharKeyFrameCollection</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>(description)</b>
+								</p>
+							</td>
+							<td>
+								<p>An empty CharKeyFrameCollection.</p>
+							</td>
+						</tr></table>
+				</content></div><!--[if gte IE 5]>
+			<tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div><a name="feedback"></a><span></span></div></body></html>

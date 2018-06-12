@@ -1,0 +1,541 @@
+<html dir="LTR" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tool="http://www.microsoft.com/tooltip"><body><input type="hidden" id="userDataCache" class="userDataStyle"><input type="hidden" id="hiddenScrollOffset"><img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif"><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif"><img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif"><img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif"><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif"><img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif"><img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif"><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif"><div id="header"><h1 class="heading">6.30 CursorSyntax</h1></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()"></div>
+
+
+
+
+<p xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+<div id="sectionSection0" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+				</content></div><div id="sectionSection1" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+					<p xmlns=""><b></b></p><table class="ProtocolAuthoredTable" xmlns=""><tr>
+								<td>
+									<p>
+										<b>[values]</b>
+									</p>
+								</td>
+								<td>
+								</td>
+							</tr><tr>
+							<td>
+								<p>
+									<b>AppStarting</b>
+								</p>
+							</td>
+							<td>
+								<p>The Cursor that appears when an application is starting.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Arrow</b>
+								</p>
+							</td>
+							<td>
+								<p>The Arrow Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>ArrowCD</b>
+								</p>
+							</td>
+							<td>
+								<p>The arrow with a compact disk Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Cross</b>
+								</p>
+							</td>
+							<td>
+								<p>The crosshair Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Hand</b>
+								</p>
+							</td>
+							<td>
+								<p>A hand Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Help</b>
+								</p>
+							</td>
+							<td>
+								<p>A help Cursor which is a combination of an arrow and a question mark.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>IBeam</b>
+								</p>
+							</td>
+							<td>
+								<p>An I-beam Cursor, which is used to show where the text cursor appears when the mouse is clicked.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>No</b>
+								</p>
+							</td>
+							<td>
+								<p>A Cursor with which indicates that a particular region is invalid for a given operation.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>None</b>
+								</p>
+							</td>
+							<td>
+								<p>A special cursor that is invisible.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Pen</b>
+								</p>
+							</td>
+							<td>
+								<p>A pen Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>ScrollAll</b>
+								</p>
+							</td>
+							<td>
+								<p>The scroll all Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>ScrollE</b>
+								</p>
+							</td>
+							<td>
+								<p>The scroll east Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>ScrollN</b>
+								</p>
+							</td>
+							<td>
+								<p>The scroll north Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>ScrollNE</b>
+								</p>
+							</td>
+							<td>
+								<p>The scroll northeast cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>ScrollNS</b>
+								</p>
+							</td>
+							<td>
+								<p>The scroll north/south cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>ScrollNW</b>
+								</p>
+							</td>
+							<td>
+								<p>A scroll northwest cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>ScrollS</b>
+								</p>
+							</td>
+							<td>
+								<p>The scroll south Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>ScrollSE</b>
+								</p>
+							</td>
+							<td>
+								<p>A south/east scrolling Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>ScrollSW</b>
+								</p>
+							</td>
+							<td>
+								<p>The scroll southwest Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>ScrollW</b>
+								</p>
+							</td>
+							<td>
+								<p>The scroll west Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>ScrollWE</b>
+								</p>
+							</td>
+							<td>
+								<p>A west/east scrolling Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>SizeAll</b>
+								</p>
+							</td>
+							<td>
+								<p>A four-headed sizing Cursor, which consists of four joined arrows that point north, south, east, and west.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>SizeNESW</b>
+								</p>
+							</td>
+							<td>
+								<p>A two-headed northeast/southwest sizing Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>SizeNS</b>
+								</p>
+							</td>
+							<td>
+								<p>A two-headed north/south sizing Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>SizeNWSE</b>
+								</p>
+							</td>
+							<td>
+								<p>A two-headed northwest/southeast sizing Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>SizeWE</b>
+								</p>
+							</td>
+							<td>
+								<p>A two-headed west/east sizing Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>UpArrow</b>
+								</p>
+							</td>
+							<td>
+								<p>An up arrow Cursor, which is typically used to identify an insertion point.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>Wait</b>
+								</p>
+							</td>
+							<td>
+								<p>Specifies a wait (or hourglass) Cursor.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[is case sensitive]</b>
+								</p>
+							</td>
+							<td>
+								<p>true</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[patterns]</b>
+								</p>
+							</td>
+							<td>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>.*\.((CUR)|(ANI))</b>
+								</p>
+							</td>
+							<td>
+								<p>Any string ending in either ".cur" or ".ani"</p>
+							</td>
+						</tr></table>
+				</content></div><!--[if gte IE 5]>
+			<tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div><a name="feedback"></a><span></span></div></body></html>

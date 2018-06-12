@@ -1,0 +1,66 @@
+<html dir="LTR" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tool="http://www.microsoft.com/tooltip">
+
+<body>
+ <input type="hidden" id="userDataCache" class="userDataStyle">
+ <input type="hidden" id="hiddenScrollOffset">
+ <img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif">
+ <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif">
+ <img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif">
+ <img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif">
+ <img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif">
+ <img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif">
+ <img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif">
+ <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif">
+ <div id="header"><h1 class="heading">5.16 ICollection(T)</h1></div>
+
+ <div id="mainSection">
+ <div id="mainBody">
+ <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()"></div>
+ <p xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+ </p>
+ <div id="sectionSection0" class="section" name="collapseableSection">
+ <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+ </content>
+ </div>
+ <div id="sectionSection1" class="section" name="collapseableSection">
+ <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+ <table class="ProtocolAuthoredTable" xmlns="">
+ <tr><td colspan="2">
+<mshelp:link keywords="54effda4-defa-496b-9df4-e6ae152e4a96" tabindex="0">ICollection(T)</mshelp:link> </td>
+ </tr>
+ <tr><td colspan="2">
+ <b>
+ICollection(T) </b>
+ </td>
+ </tr>
+ <tr><td colspan="2">
+<mshelp:link keywords="e3c43d2b-4a1a-49b8-8e5b-7c5c4c98968c" tabindex="0">BlockCollection</mshelp:link> <mshelp:link keywords="a83f575d-2cf7-435d-935e-f64953d7846f" tabindex="0">CalendarBlackoutDatesCollection</mshelp:link> <mshelp:link keywords="a5c08e75-715e-4910-893a-839e1e3b766e" tabindex="0">CharacterMetricsDictionary</mshelp:link> <mshelp:link keywords="21938221-08ce-4340-a62e-ddb4d417b059" tabindex="0">ClockCollection</mshelp:link> <mshelp:link keywords="2f58d1eb-71e5-4e16-8227-02c0370444cb" tabindex="0">ColumnDefinitionCollection</mshelp:link> <mshelp:link keywords="6714cf8d-79d3-46f1-a5a8-8a8824e37e66" tabindex="0">ConditionCollection</mshelp:link> <mshelp:link keywords="ad584127-366c-40ba-ba78-09944e40fe5d" tabindex="0">DoubleCollection</mshelp:link> <mshelp:link keywords="226a9276-cd7a-4b16-a54c-74c78828e37a" tabindex="0">DrawingCollection</mshelp:link> <mshelp:link keywords="81460428-d969-498a-b07f-4c4620012365" tabindex="0">FamilyTypefaceCollection</mshelp:link> <mshelp:link keywords="55ec3d45-c1b9-4b18-b8e7-d5472b6ceb79" tabindex="0">FontFamilyMapCollection</mshelp:link> <mshelp:link keywords="d8f79f42-2ed8-4f8c-8ea6-3c7f40d3d9f3" tabindex="0">GeneralTransform3DCollection</mshelp:link> <mshelp:link keywords="489cd00a-6ba5-4d60-ad54-98da8008bccb" tabindex="0">GeneralTransformCollection</mshelp:link> <mshelp:link keywords="f51f8c1c-8541-4015-8066-fb8cf8a1b3fb" tabindex="0">GeometryCollection</mshelp:link> <mshelp:link keywords="deb0087c-4ed0-45aa-94d8-a0cd239ed123" tabindex="0">GradientStopCollection</mshelp:link> <mshelp:link keywords="75d237ec-4337-4705-99ba-d4cffb987330" tabindex="0">GridViewColumnCollection</mshelp:link> <mshelp:link keywords="bff5e76c-66c1-4ef2-bfe2-b1a82fa64046" tabindex="0">InlineCollection</mshelp:link> <mshelp:link keywords="2aa9a623-84e1-4202-abbd-d80235b65629" tabindex="0">Int32Collection</mshelp:link> <mshelp:link keywords="c2637d59-fbfa-4b15-94ce-c1e791b970b3" tabindex="0">LanguageSpecificStringDictionary</mshelp:link> <mshelp:link keywords="2ee3f07b-23a6-426e-8fd9-6e919d000e92" tabindex="0">ListItemCollection</mshelp:link> <mshelp:link keywords="b3933e21-1b1d-4c90-b503-25acfe0d3e80" tabindex="0">MaterialCollection</mshelp:link> <mshelp:link keywords="0c90d0c9-c518-4a76-8fd6-02ba85d23bad" tabindex="0">Model3DCollection</mshelp:link> <mshelp:link keywords="cd42dbfc-a5f9-452d-9c9f-6761bee414ff" tabindex="0">PathFigureCollection</mshelp:link> <mshelp:link keywords="4b43062c-9a97-4b89-849d-d61853d53194" tabindex="0">PathSegmentCollection</mshelp:link> <mshelp:link keywords="0923d0aa-7489-4f82-8042-158ed3584ea7" tabindex="0">Point3DCollection</mshelp:link> <mshelp:link keywords="3391691d-cc37-4221-8bbb-d6f14d5e3da8" tabindex="0">PointCollection</mshelp:link> <mshelp:link keywords="ccb786b5-a739-4ed4-b980-3a1d85ddb0cd" tabindex="0">RibbonControlSizeDefinitionCollection</mshelp:link> <mshelp:link keywords="70792109-6776-4bf6-883d-6de02bd7338f" tabindex="0">RibbonGroupSizeDefinitionBaseCollection</mshelp:link> <mshelp:link keywords="02e302ff-0e04-427d-8e6b-0e921dd71a86" tabindex="0">RowDefinitionCollection</mshelp:link> <mshelp:link keywords="79bb5e96-bd05-475f-8f0d-8f0c5bc20239" tabindex="0">SelectedDatesCollection</mshelp:link> <mshelp:link keywords="f8d74084-928e-4197-b7c1-165c5517a2e4" tabindex="0">SetterBaseCollection</mshelp:link> <mshelp:link keywords="c7a393ea-2234-4aac-86b3-43920a0585be" tabindex="0">StrokeCollection</mshelp:link> <mshelp:link keywords="5b46fdc4-3f15-481b-8d4c-1c72d4e12545" tabindex="0">StylusButtonCollection</mshelp:link> <mshelp:link keywords="0fdffd05-45f0-45f1-9dad-0d52f294726c" tabindex="0">StylusDeviceCollection</mshelp:link> <mshelp:link keywords="e0a8a235-5e16-4c70-a1d8-c23e002391cc" tabindex="0">StylusPointCollection</mshelp:link> <mshelp:link keywords="aeade11e-8b6b-414e-8b26-f061221ab0ee" tabindex="0">TableCellCollection</mshelp:link> <mshelp:link keywords="414e8b6c-895f-40fd-92cd-620f383c4f63" tabindex="0">TableColumnCollection</mshelp:link> <mshelp:link keywords="aa8e05d5-1eb5-44b7-b6f9-4f7238732512" tabindex="0">TableRowCollection</mshelp:link> <mshelp:link keywords="ea1043a2-da1c-4950-9144-c7f694ad1281" tabindex="0">TableRowGroupCollection</mshelp:link> <mshelp:link keywords="d5dff2e9-adf7-4ea9-8a32-40c411010c42" tabindex="0">TextDecorationCollection</mshelp:link> <mshelp:link keywords="a8806de8-30df-4126-b0aa-17205f53cd6c" tabindex="0">TextEffectCollection</mshelp:link> <mshelp:link keywords="ea55a45f-cd1d-44dc-8cb8-da8482779e5d" tabindex="0">TextElementCollection</mshelp:link>(<mshelp:link keywords="d4c32be8-d35d-40a7-aca9-62a23728b9be" tabindex="0">TextElementCollection+TextElementType</mshelp:link>) <mshelp:link keywords="e7315651-eace-46b5-aad6-05fe3af9e6a8" tabindex="0">ThumbButtonInfoCollection</mshelp:link> <mshelp:link keywords="da2a5111-8880-4a00-b800-bb1b39ec6f4a" tabindex="0">TimelineCollection</mshelp:link> <mshelp:link keywords="eb009fda-1aad-4c50-9695-430fe33207c8" tabindex="0">TouchPointCollection</mshelp:link> <mshelp:link keywords="01784bc2-2b78-41ff-b572-33467a5ff09d" tabindex="0">Transform3DCollection</mshelp:link> <mshelp:link keywords="69300207-2fd2-4cbf-92a8-ed0cb7ebc4bc" tabindex="0">TransformCollection</mshelp:link> <mshelp:link keywords="42deb9fa-2a22-4730-9025-2fef4203dcfd" tabindex="0">TriggerActionCollection</mshelp:link> <mshelp:link keywords="76e55a82-2c16-41ac-bcc6-3749a24a20a0" tabindex="0">TriggerCollection</mshelp:link> <mshelp:link keywords="b270ec2a-7ab4-497a-862f-11d282099a2c" tabindex="0">Vector3DCollection</mshelp:link> <mshelp:link keywords="31877bc8-0ad9-4854-a500-a1c85c6d2083" tabindex="0">VectorCollection</mshelp:link> <mshelp:link keywords="47bb34af-4bf1-4343-8186-760b512cb088" tabindex="0">Visual3DCollection</mshelp:link> <mshelp:link keywords="cf8d27cd-a4cf-48ca-bc3b-9dfd332ca838" tabindex="0">XmlNamespaceMappingCollection</mshelp:link> </td>
+ </tr>
+ <tr><td><div class="indent0">(usage)</div></td>
+ <td>None. </td>
+ </tr>
+ <tr><td><div class="indent0">(description)</div></td>
+ <td>Defines methods to manipulate generic collections. </td>
+ </tr>
+ <tr><td><div class="indent0">(used by)</div></td>
+ <td><mshelp:link keywords="a5c08e75-715e-4910-893a-839e1e3b766e" tabindex="0">CharacterMetricsDictionary</mshelp:link> <mshelp:link keywords="90f11439-4fdd-450b-981c-a20705bff2ad" tabindex="0">FontEmbeddingManager</mshelp:link> <mshelp:link keywords="ce9c77fb-2dd6-4ff5-a60b-5cfdd5ab1391" tabindex="0">Fonts</mshelp:link> <mshelp:link keywords="c2637d59-fbfa-4b15-94ce-c1e791b970b3" tabindex="0">LanguageSpecificStringDictionary</mshelp:link> </td>
+ </tr>
+ <tr><td><div class="indent0">[is default constructible]</div></td>
+ <td>false </td>
+ </tr>
+ <tr><td><div class="indent0">[is list]</div></td>
+ <td>true </td>
+ </tr>
+ <tr><td><div class="indent0">[allowed types]</div></td>
+ <td>T </td>
+ </tr>
+</table>
+ </content>
+ </div>
+ <!--[if gte IE 5]>
+ <tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+ <![endif]-->
+ </div>
+ <a name="feedback"></a><span></span>
+ </div>
+</body></html>

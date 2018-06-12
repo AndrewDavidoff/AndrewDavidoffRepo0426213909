@@ -28,3 +28,8 @@
       items:
         - name: MS-IPAMM2
           href: articles/MS-IPAMM2/                    
+    - name: Computer Languages
+      href: articles/clindex.md
+      items:
+        - name: MDSL
+          href: articles/MDSL/                              

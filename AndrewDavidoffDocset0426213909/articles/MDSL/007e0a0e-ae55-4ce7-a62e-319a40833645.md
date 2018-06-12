@@ -1,0 +1,86 @@
+<html dir="LTR" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tool="http://www.microsoft.com/tooltip"><body><input type="hidden" id="userDataCache" class="userDataStyle"><input type="hidden" id="hiddenScrollOffset"><img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif"><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif"><img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif"><img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif"><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif"><img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif"><img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif"><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif"><div id="header"><h1 class="heading">5.1 Schema Information Item</h1></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()"></div>
+
+
+
+
+<p xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+<div id="sectionSection0" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+				</content></div><div id="sectionSection1" class="section" name="collapseableSection"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:wsd="http://wsdev.schemas.microsoft.com/authoring/2008/2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:script="urn:script" xmlns:build="urn:build">
+					<p xmlns="">Each Xaml Schema MUST have one Schema Information Item. The Schema Information Item is the root of a schema's definition, defining which other items belong to this schema.</p>
+					<p xmlns="">Table 3: Schema Information Item Properties</p>
+					<p xmlns=""><b></b></p><table class="ProtocolAuthoredTable" xmlns=""><tr>
+								<td id="ShadedCell">
+									<p>Name</p>
+								</td>
+								<td id="ShadedCell">
+									<p>Type</p>
+								</td>
+								<td id="ShadedCell">
+									<p>Purpose (non-normative)</p>
+								</td>
+							</tr><tr>
+							<td>
+								<p>
+									<b>[target namespace]</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<mshelp:link keywords="84eae189-5457-41eb-9fed-cd2b7698e33b" tabindex="0">Namespace Uri</mshelp:link>
+								</p>
+							</td>
+							<td>
+								<p>The target XML namespace for this schema.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[types]</b>
+								</p>
+							</td>
+							<td>
+								<p>Set of <mshelp:link keywords="2c66ed32-eead-44a7-847d-baabda0d2856" tabindex="0">XamlType Information Items</mshelp:link></p>
+							</td>
+							<td>
+								<p>The object types that instances of this schema may contain.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[assignable types]</b>
+								</p>
+							</td>
+							<td>
+								<p>Set of <mshelp:link keywords="2c66ed32-eead-44a7-847d-baabda0d2856" tabindex="0">XamlType Information Items</mshelp:link></p>
+							</td>
+							<td>
+								<p>Types that are not used directly as values in instances of this schema, but which are used by XamlMember Information Items for assignability purposes. </p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[directives]</b>
+								</p>
+							</td>
+							<td>
+								<p>Set of <mshelp:link keywords="2c66ed32-eead-44a7-847d-baabda0d2856" tabindex="0">XamlMember Information Items</mshelp:link></p>
+							</td>
+							<td>
+								<p>The directive attributes that may be applied to objects in instances of this schema.</p>
+							</td>
+						</tr><tr>
+							<td>
+								<p>
+									<b>[compatible with schemas]</b>
+								</p>
+							</td>
+							<td>
+								<p>Set of Schema Information Items</p>
+							</td>
+							<td>
+								<p>The schemas with which this schema is considered compatible.</p>
+							</td>
+						</tr></table>
+				</content></div><!--[if gte IE 5]>
+			<tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div><a name="feedback"></a><span></span></div></body></html>
